@@ -1,6 +1,17 @@
 import { Container, Nav, Navbar, Offcanvas } from 'react-bootstrap'
 import { ReactComponent as Logo } from '../assets/hatchr-logo-white.svg'
+import React, { useState } from 'react'
 
+var navButtonText = "companies"
+var navButtonPath = "companies"
+
+if (window.location.pathname == '/companies') {
+    navButtonText = "developers"
+    navButtonPath = "/"
+} else {
+    navButtonText = "companies"
+    navButtonPath = "/companies"
+}
 
 function MenuBar() {
     return (
@@ -21,16 +32,8 @@ function MenuBar() {
                     </Offcanvas.Header>
                     <Offcanvas.Body>
                         <Nav className="menu-links">
-                            <Nav.Link href="/companies">Companies</Nav.Link>
-                            <Nav.Link href="/assessments">Assessments</Nav.Link>
-                            {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                                <NavDropdown.Item href="">things</NavDropdown.Item>
-                                <NavDropdown.Item href="">for</NavDropdown.Item>
-                                <NavDropdown.Item href="">future</NavDropdown.Item>
-                                <NavDropdown.Item href="">
-                                    use
-                                </NavDropdown.Item>
-                            </NavDropdown> */}
+                            <Nav.Link href={navButtonPath}>{"For " + navButtonText}</Nav.Link>
+                            <Nav.Link href="/assessments">Coding tasks</Nav.Link>
                         </Nav>
                     </Offcanvas.Body>
                 </Navbar.Offcanvas>
