@@ -1,10 +1,10 @@
 import { Container, Nav, Navbar, Offcanvas } from 'react-bootstrap'
-import { ReactComponent as Logo } from '../assets/hatchr-logo.svg'
+import { ReactComponent as Logo } from '../assets/hatchr-logo-white.svg'
 
 
 function MenuBar() {
     return (
-        <Navbar collapseOnSelect expand="lg" variant='dark' fixed='top'>
+        <Navbar className="menu-bar" collapseOnSelect expand="lg" variant='dark' fixed='top'>
             <Container >
                 <Navbar.Brand>
                     <Logo height='40px'/>
@@ -20,7 +20,7 @@ function MenuBar() {
                         </Offcanvas.Title>
                     </Offcanvas.Header>
                     <Offcanvas.Body>
-                        <Nav className="justify-content-end flex-grow-1 pe-3">
+                        <Nav className="menu-links">
                             <Nav.Link href="/companies">Companies</Nav.Link>
                             <Nav.Link href="/assessments">Assessments</Nav.Link>
                             {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">

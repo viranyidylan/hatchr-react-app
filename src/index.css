@@ -13,6 +13,15 @@ code {
 }
 
 /* MENU BAR */
+.menu-bar {
+  height: 120px;
+}
+
+.menu-links {
+  flex-grow: 1;
+  justify-content: end;
+  font-size: 20px;
+}
 
  /* HOME PAGE */
  .home-page {
@@ -21,9 +30,19 @@ code {
  }
 
  .home-page-container-1 {
-  padding: 60px;
+  padding-top: 160px;
+  padding-bottom: 80px;
   height: fit-content;
   width: 100vw;
   background-image: url(../src/assets/hero-blob-scene.svg);
   background-size: cover;
+ }
+
+ .home-page-title {
+  padding-bottom: 30px;
+  color: white;
+ }
+
+ .home-page-subtitle {
+  color: white;
  }

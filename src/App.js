@@ -1,11 +1,11 @@
-import './App.css';
-import React from 'react';
-import { Routes, Route } from "react-router-dom";
-import Home from './pages/Home';
-import Companies from './pages/Companies';
-import Assessments from './pages/Assessments';
-import NoRoute from './pages/NoRoute';
-import MenuBar from './components/MenuBar';
+import './App.css'
+import React from 'react'
+import { Routes, Route } from "react-router-dom"
+import Home from './pages/Home'
+import Companies from './pages/Companies'
+import Assessments from './pages/Assessments'
+import NoRoute from './pages/NoRoute'
+import MenuBar from './components/MenuBar'
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <Route path='*' element={<NoRoute/>} />
       </Routes>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
