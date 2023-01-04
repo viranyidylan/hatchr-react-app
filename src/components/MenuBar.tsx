@@ -1,11 +1,11 @@
 import { Container, Nav, Navbar, Offcanvas } from 'react-bootstrap'
-import { ReactComponent as Logo } from '../assets/hatchr-logo-white.svg'
-import React, { useState } from 'react'
+//import { ReactComponent as Logo } from '../assets/hatchr-logo-white.svg'
+import React from 'react'
 
 var navButtonText = "companies"
 var navButtonPath = "companies"
 
-if (window.location.pathname == '/companies') {
+if (window.location.pathname === '/companies') {
     navButtonText = "developers"
     navButtonPath = "/"
 } else {
@@ -18,7 +18,7 @@ function MenuBar() {
         <Navbar className="menu-bar" collapseOnSelect expand="lg" variant='dark' fixed='top'>
             <Container >
                 <Navbar.Brand>
-                    <Logo height='40px'/>
+                    {/* <Logo height='40px'/> */}
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="offcanvasNavbar-expand-${expand}" />
                 <Navbar.Offcanvas 
