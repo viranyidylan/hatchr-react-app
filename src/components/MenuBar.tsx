@@ -1,5 +1,5 @@
 import { Container, Nav, Navbar, Offcanvas } from 'react-bootstrap'
-//import { ReactComponent as Logo } from '../assets/hatchr-logo-white.svg'
+import { ReactComponent as Logo } from '../assets/hatchr-logo-white.svg'
 import React from 'react'
 
 var navButtonText = "companies"
@@ -18,7 +18,7 @@ function MenuBar() {
         <Navbar className="menu-bar" collapseOnSelect expand="lg" variant='dark' fixed='top'>
             <Container >
                 <Navbar.Brand>
-                    {/* <Logo height='40px'/> */}
+                    <Logo height='40px'/>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="offcanvasNavbar-expand-${expand}" />
                 <Navbar.Offcanvas 
