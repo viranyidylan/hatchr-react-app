@@ -37,14 +37,10 @@
   }
 }
 
-.font-face-gm {
-  font-family: "Rubik";
- }
-
  /* font stuff */
 
  /* cyrillic-ext */
-@font-face {
+ @font-face {
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 400;

@@ -48,10 +48,14 @@ body {
 
  .home-page-title h1 {
   font-size: 50px;
-  font-family: 'Rubik';
  }
 
  .home-page-subtitle {
   color: white;
+ }
+
+ .home-page-subtitle h3 {
+  color: white;
+  font-size: 20px;
  }
 
