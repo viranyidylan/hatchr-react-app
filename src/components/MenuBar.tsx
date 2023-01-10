@@ -15,7 +15,7 @@ if (window.location.pathname === '/companies') {
 
 function MenuBar() {
     return (
-        <Navbar className="menu-bar" collapseOnSelect expand="lg" variant='dark' fixed='top'>
+        <Navbar className="menu-bar" collapseOnSelect expand="lg" variant='dark' fixed="top" >
             <Container >
                 <Navbar.Brand>
                     <Logo height='40px'/> 

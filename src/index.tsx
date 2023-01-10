@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './fonts/Rubik/Rubik-VariableFont_wght.ttf';
+import './fonts/Rubik/Rubik-Italic-VariableFont_wght.ttf';
 
 const rootElement = document.getElementById('root');
 const root = ReactDOM.createRoot(rootElement!);
