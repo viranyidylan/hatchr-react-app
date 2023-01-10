@@ -1,6 +1,8 @@
 import { Container, Nav, Navbar, Offcanvas } from 'react-bootstrap'
-import { ReactComponent as Logo } from '../assets/hatchr-logo-white.svg'
+//import { ReactComponent as Logo } from '../@types/assets/hatchr-logo-white.svg'
 import React from 'react'
+
+const logo: string = require("../@types/assets/hatchr-logo-white.svg").default;
 
 var navButtonText = "companies"
 var navButtonPath = "companies"
@@ -18,7 +20,10 @@ function MenuBar() {
         <Navbar className="menu-bar" collapseOnSelect expand="lg" variant='dark' fixed='top'>
             <Container >
                 <Navbar.Brand>
-                    <Logo height='40px'/>
+                    {/* <Logo height='40px'/> */}
+
+                    <img src={logo} alt="logo" height='40px'/>
+                    
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="offcanvasNavbar-expand-${expand}" />
                 <Navbar.Offcanvas 

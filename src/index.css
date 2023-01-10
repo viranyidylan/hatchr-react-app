@@ -1,16 +1,18 @@
+* {
+  font-family: 'Rubik';
+  text-decoration: none;
+}
+
+:root {
+  --lightgrey: #acacac;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
 /* MENU BAR */
 .menu-bar {
@@ -27,6 +29,7 @@ code {
  .home-page {
   height: 100vh;
   width: 100vw;
+  position: absolute;
  }
 
  .home-page-container-1 {
@@ -34,7 +37,7 @@ code {
   padding-bottom: 80px;
   height: fit-content;
   width: 100vw;
-  background-image: url(../src/assets/hero-blob-scene.svg);
+  background-image: url(../src/@types/assets/hero-blob-scene.svg);
   background-size: cover;
  }
 
@@ -43,6 +46,12 @@ code {
   color: white;
  }
 
+ .home-page-title h1 {
+  font-size: 50px;
+  font-family: 'Rubik';
+ }
+
  .home-page-subtitle {
   color: white;
  }
+
