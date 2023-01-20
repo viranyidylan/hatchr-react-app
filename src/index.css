@@ -5,7 +5,8 @@
 
 :root {
   --lightgrey: #acacac;
-  --hotpink: #f70462;
+  --hotpink: #de1867;
+  --darkblue: #171e25;
 }
 
 body {
@@ -77,12 +78,55 @@ body {
 
  .home-page-subtitle {
   color: white;
+  padding-bottom: 25px;
  }
 
  .home-page-subtitle h2 {
   color: var(--lightgrey);
   font-size: 20px;
   font-weight: bold;
+ }
+
+ .button-box {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+ }
+
+ .button-box h2 {
+  font-size: 20px;
+  font-weight: 600;
+ }
+
+ #btn-custom-primary {
+  border-radius: 15px; 
+  background-color: var(--hotpink);
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+ }
+
+ #btn-custom-primary:hover {
+  background-color: #e792b4;
+ }
+
+ #btn-custom-primary:active {
+  background-color: #e792b4;
+ }
+
+ #btn-custom-secondary {
+  border-radius: 15px; 
+  background-color: var(--darkblue);
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+ }
+
+ #btn-custom-secondary:hover {
+  background-color: #728ca8;
  }
 
 
