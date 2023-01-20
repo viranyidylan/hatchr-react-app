@@ -18,12 +18,10 @@ function Home() {
                         Forget studying for coding whiteboards, memorising obscure algorithms questions and bragging about what university you went to. We focus on what actually matters for software engineering - your ability to build things with code.</h3>
                     </Row>
                     <Row className="button-box">
-                        <Col>
+                        <Col className="button-col">
                             <Button id="btn-custom-primary" variant="primary">
                                 <h3>Get started</h3>
                             </Button>
-                        </Col>
-                        <Col>
                             <Button id="btn-custom-secondary" variant="secondary">
                                 <h3>See coding tasks</h3>
                             </Button>
@@ -34,7 +32,7 @@ function Home() {
             <div className="home-page-background-2">
                 <div className="home-page-container-2">
                     <Row>
-                        <Col className="feature-col">
+                        <Col>
                             <Image1 />
                             <h2 className="left">Complete a coding task to join top developers</h2>
                             <p>
@@ -44,7 +42,7 @@ function Home() {
                                 We want to see you doing your best work with the languages and tools you're most comfortable.
                             </p>
                         </Col>
-                        <Col className="feature-col">
+                        <Col>
                             <Image2 />
                             <h2>Let your skills do the talking</h2>
                             <p>
@@ -54,7 +52,7 @@ function Home() {
                         </Col>
                     </Row>
                     <Row>
-                        <Col className="feature-col">
+                        <Col>
                             <Image3 />
                             <h2>Speak directly to companies</h2>
                             <p>
@@ -63,7 +61,7 @@ function Home() {
                                 (who don't even know the difference between Java and JavaScript 🤮)
                             </p>
                         </Col>
-                        <Col className="feature-col">
+                        <Col>
                             <Image4 />
                             <h2>Streamline your job search</h2>
                             <p>
