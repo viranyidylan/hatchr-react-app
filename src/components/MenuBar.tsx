@@ -1,7 +1,6 @@
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { ReactComponent as Logo } from '../@types/assets/hatchr-logo-white.svg';
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 
 var navButtonText = "companies";
 var navButtonPath = "companies";
@@ -48,9 +47,9 @@ function MenuBar() {
         <Navbar className="menu-bar" onToggle={expansionControl} expand="md" variant='dark' fixed="top" hidden={hidden} expanded={expanded} >
             <Container fluid>
                 <Navbar.Brand>
-                    <Link to='/'>
+                    <Nav.Link href='/'>
                         <Logo height='40px'/> 
-                    </Link>
+                    </Nav.Link>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
