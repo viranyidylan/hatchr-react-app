@@ -4,8 +4,8 @@ import { Button, Col, Form, Row, Stack } from "react-bootstrap";
 function Companies() {
     return (
         <div className="home-page">
-            <div className="home-page-background-1">
-                <div className="home-page-container-1">
+            <div className="company-page-background">
+                <div className="company-page-container">
                     <Row className="home-page-title">
                         <h1>Access to South Africa's <span style={{color: "#de1867"}}>top developers</span>.</h1>
                     </Row>

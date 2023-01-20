@@ -39,8 +39,8 @@ function Home() {
                 <div className="home-page-container-2">
                     <Stack gap={5}>
                         <Row>
-                            <Col>
-                                <Stack gap={4}>
+                            <Col >
+                                <Stack className="home-page-col" gap={4}>
                                     <Image1 />
                                     <h2 className="left">Complete a coding task to join top developers</h2>
                                     <p>
@@ -51,8 +51,8 @@ function Home() {
                                     </p>
                                 </Stack>
                             </Col>
-                            <Col>
-                                <Stack gap={4}>
+                            <Col >
+                                <Stack className="home-page-col" gap={4}>
                                     <Image2 />
                                     <h2>Let your skills do the talking</h2>
                                     <p>
@@ -63,8 +63,8 @@ function Home() {
                             </Col>
                         </Row>
                         <Row>
-                            <Col>
-                                <Stack gap={4}>
+                            <Col >
+                                <Stack className="home-page-col" gap={4}>
                                     <Image3 />
                                     <h2>Speak directly to companies</h2>
                                     <p>
@@ -74,8 +74,8 @@ function Home() {
                                     </p>
                                 </Stack>
                             </Col>
-                            <Col>
-                                <Stack gap={4}>
+                            <Col >
+                                <Stack className="home-page-col" gap={4}>
                                     <Image4 />
                                     <h2>Streamline your job search</h2>
                                     <p>
