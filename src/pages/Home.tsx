@@ -14,8 +14,11 @@ function Home() {
                         <h1>Software engineering interviews are <span style={{color: "#de1867"}}>broken</span>. Hatchr is fixing the process.</h1>
                     </Row>
                     <Row className="home-page-subtitle">
-                        <h3>Hatchr is the platform for you to find your next software engineering job. 
-                        Forget studying for coding whiteboards, memorising obscure algorithms questions and bragging about what university you went to. We focus on what actually matters for software engineering - your ability to build things with code.</h3>
+                        <h3>
+                            Hatchr is the platform for you to find your next software engineering job. 
+                            Forget studying for coding whiteboards, memorising obscure algorithms questions and bragging about what university you went to. 
+                            We focus on what actually matters for software engineering - your ability to build things with code.
+                        </h3>
                     </Row>
                     <Row className="button-box">
                         <Col className="button-col">
@@ -29,6 +32,7 @@ function Home() {
                     </Row>
                 </div>
             </div>
+
             <div className="home-page-background-2">
                 <div className="home-page-container-2">
                     <Stack gap={5}>
@@ -82,10 +86,82 @@ function Home() {
                         </Row>
                     </Stack>
                 </div>
+            </div>
+
+            <div className="home-page-background-2">
                 <div className="home-page-container-3">
+                    <Row className="home-page-title">
+                        <h1>Frequently asked questions</h1>
+                    </Row>
+                    <Stack gap={4}>
+                        <Row>
+                            <Row className="faq-heading">
+                                <h2>How does it work?</h2>
+                            </Row>
+                            <Row>
+                                <p>
+                                    Taking one of our coding tasks gets you into the Hatchr platform. 
+                                    We review your submission and connect you with companies that are looking for developers that match your skills.
+                                </p>
+                                <p>
+                                    If we believe your skills aren't at hatchr level then we provide you with actionable feedback for what we believe you should work on. 
+                                    There's no trick to passing hatchr assessments, the way to prepare is to improve your coding ability.
+                                </p>
+                                <p>
+                                    Hit "get started" for instructions on completing and submitting one of our coding tasks.
+                                </p>
+                            </Row>
+                        </Row>
+
+                        <Row>
+                            <Row className="faq-heading">
+                                <h2>How much does it cost?</h2>
+                            </Row>
+                            <Row>
+                                <p>Hatchr’s process is free for software developers.</p>
+                                <p>Companies pay us because we improve their hiring process.</p>
+                            </Row>
+                        </Row>
+
+                        <Row>
+                            <Row className="faq-heading">
+                                <h2>When should I pick up the coding task?</h2>
+                            </Row>
+                            <Row>
+                                <p>
+                                    You can take a coding task any time, you don’t even have to be actively looking for a job yet. 
+                                    Once you’ve submitted the code we’ll reach out to you and find out a bit more about your current status.
+                                </p>
+                            </Row>
+                        </Row>
+
+                        <Row>
+                            <Row className="faq-heading">
+                                <h2>Why hatchr? 🐣</h2>
+                            </Row>
+                            <Row>
+                                <p>
+                                    We save you time. 
+                                    By fast tracking you to the final stage of interviews with each company you don’t have to go through applications, cover letters and tech screens with each company individually.
+                                </p>
+                                <p>
+                                    We have a network of great companies that we will match you with based on your specific skillset and their requirements.
+                                </p>
+                                <p>
+                                    Companies trust our ability to technically assess candidates and find talent that other recruiters can’t. 
+                                    If you’re self taught, or have a nontraditional software development background, we provide you with an opportunity to showcase your skills!
+                                </p>
+                            </Row>
+                        </Row>
+                        
+                        
+
+                    </Stack>
+                    
                 
                 </div>
             </div>
+
             <div className="home-page-background-3">
                 <div className="home-page-container-4">
                     <Row className="home-page-title">
