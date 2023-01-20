@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Col, Row } from "react-bootstrap";
+import { Button, Col, Row, Stack } from "react-bootstrap";
 import { ReactComponent as Image1 } from '../@types/assets/code.svg';
 import { ReactComponent as Image2 } from '../@types/assets/report.svg';
 import { ReactComponent as Image3 } from '../@types/assets/chat.svg';
@@ -31,46 +31,56 @@ function Home() {
             </div>
             <div className="home-page-background-2">
                 <div className="home-page-container-2">
-                    <Row>
-                        <Col>
-                            <Image1 />
-                            <h2 className="left">Complete a coding task to join top developers</h2>
-                            <p>
-                                Pick up one of our coding tasks to showcase your skills 
-                                and become a member of our professional network of software developers. 
-                                Our assessments aren't meant to trick you or catch you out. 
-                                We want to see you doing your best work with the languages and tools you're most comfortable.
-                            </p>
-                        </Col>
-                        <Col>
-                            <Image2 />
-                            <h2>Let your skills do the talking</h2>
-                            <p>
-                                Hatchr shifts the focus away from prestigious credentials, background or personal branding, 
-                                and onto what really matters: your technical skills.
-                            </p>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col>
-                            <Image3 />
-                            <h2>Speak directly to companies</h2>
-                            <p>
-                                We help developers find jobs at awesome companies. 
-                                Companies contact you directly, no dealing with third-party recruiters 
-                                (who don't even know the difference between Java and JavaScript 🤮)
-                            </p>
-                        </Col>
-                        <Col>
-                            <Image4 />
-                            <h2>Streamline your job search</h2>
-                            <p>
-                                Stop sending your resume to different job boards and wondering if you'll hear back. 
-                                Hatchr allows you to conduct your job search on one platform, 
-                                and connects you with companies that are specifically interested in the skills you've demonstrated.
-                            </p>
-                        </Col>
-                    </Row>
+                    <Stack gap={5}>
+                        <Row>
+                            <Col>
+                                <Stack gap={4}>
+                                    <Image1 />
+                                    <h2 className="left">Complete a coding task to join top developers</h2>
+                                    <p>
+                                        Pick up one of our coding tasks to showcase your skills 
+                                        and become a member of our professional network of software developers. 
+                                        Our assessments aren't meant to trick you or catch you out. 
+                                        We want to see you doing your best work with the languages and tools you're most comfortable.
+                                    </p>
+                                </Stack>
+                            </Col>
+                            <Col>
+                                <Stack gap={4}>
+                                    <Image2 />
+                                    <h2>Let your skills do the talking</h2>
+                                    <p>
+                                        Hatchr shifts the focus away from prestigious credentials, background or personal branding, 
+                                        and onto what really matters: your technical skills.
+                                    </p>
+                                </Stack>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col>
+                                <Stack gap={4}>
+                                    <Image3 />
+                                    <h2>Speak directly to companies</h2>
+                                    <p>
+                                        We help developers find jobs at awesome companies. 
+                                        Companies contact you directly, no dealing with third-party recruiters 
+                                        (who don't even know the difference between Java and JavaScript 🤮)
+                                    </p>
+                                </Stack>
+                            </Col>
+                            <Col>
+                                <Stack gap={4}>
+                                    <Image4 />
+                                    <h2>Streamline your job search</h2>
+                                    <p>
+                                        Stop sending your resume to different job boards and wondering if you'll hear back. 
+                                        Hatchr allows you to conduct your job search on one platform, 
+                                        and connects you with companies that are specifically interested in the skills you've demonstrated.
+                                    </p>
+                                </Stack>
+                            </Col>
+                        </Row>
+                    </Stack>
                 </div>
                 <div className="home-page-container-3">
                 

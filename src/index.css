@@ -173,6 +173,8 @@ body {
   padding-bottom: 100px;
   padding-top: 80px;
   color: var(--lightgrey);
+  width: 80vw;
+  text-align: left;
  }
 
  .home-page-container-3 {
