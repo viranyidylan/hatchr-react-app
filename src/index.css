@@ -54,6 +54,11 @@ body {
   position: relative;
   flex-grow: 1;
   justify-content: end;
+  margin-top: 20px;
+}
+
+.nav-link {
+  margin-right: 45px;
 }
 
 .nav-link h3 {

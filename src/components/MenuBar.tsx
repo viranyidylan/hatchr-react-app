@@ -16,13 +16,15 @@ if (window.location.pathname === '/companies') {
 
 function MenuBar() {
     const [hidden, setHidden] = useState(false);
+    const [expanded, setExpanded] = useState(false);
 
     const navControl = () => {
         if (typeof window !== 'undefined') { 
             if (window.scrollY < 70) { 
                 setHidden(false); 
             } else {
-                setHidden(true);  
+                setHidden(true);
+                setExpanded(false);
             }
         }
     };
@@ -38,8 +40,12 @@ function MenuBar() {
         }
     }, []);
 
+    const expansionControl = () => {
+        setExpanded(!expanded);
+    };
+
     return (
-        <Navbar className="menu-bar" collapseOnSelect expand="md" variant='dark' fixed="top" hidden={hidden} >
+        <Navbar className="menu-bar" onToggle={expansionControl} expand="md" variant='dark' fixed="top" hidden={hidden} expanded={expanded} >
             <Container fluid>
                 <Navbar.Brand>
                     <Link to='/'>
