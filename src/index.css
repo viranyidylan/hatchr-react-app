@@ -3,10 +3,32 @@
   text-decoration: none;
 }
 
+:root h1 {
+  font-size: 55px;
+  font-weight: 600;
+  color: white;
+}
+
+:root h2 {
+  font-size: 26px;
+  font-weight: 600;
+  color: white;
+}
+
+:root h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+:root p {
+  font-size: 18px;
+}
+
 :root {
-  --lightgrey: #acacac;
+  --lightgrey: #b0b0b0;
   --hotpink: #de1867;
   --darkblue: #171e25;
+  --charcoal: #00070e;
 }
 
 body {
@@ -31,8 +53,14 @@ body {
   position: relative;
   flex-grow: 1;
   justify-content: end;
-  font-size: 20px;
-  font-weight: 600;
+}
+
+.menu-links h3 {
+  color: white;
+}
+
+.menu-links:hover {
+  color: var(--lightgrey);
 }
 
  /* HOME PAGE */
@@ -44,8 +72,8 @@ body {
  }
 
  .home-page-background-1 {
-  padding-top: 175px;
-  padding-bottom: 80px;
+  padding-top: 170px;
+  padding-bottom: 60px;
   height: fit-content;
   width: 100vw;
   background-image: url(../src/@types/assets/hero-blob-scene.svg);
@@ -61,7 +89,7 @@ body {
   position: relative;
   align-items: center;
   width: 70vw;
-  max-width: 800px;
+  max-width: 750px;
  }
 
  .home-page-title {
@@ -71,20 +99,13 @@ body {
   display: block;
  }
 
- .home-page-title h1 {
-  font-size: 55px;
-  font-weight: bold;
- }
-
  .home-page-subtitle {
   color: white;
   padding-bottom: 25px;
  }
 
- .home-page-subtitle h2 {
+ .home-page-subtitle h3 {
   color: var(--lightgrey);
-  font-size: 20px;
-  font-weight: bold;
  }
 
  .button-box {
@@ -94,7 +115,7 @@ body {
   align-items: center;
  }
 
- .button-box h2 {
+ .button-box h3 {
   font-size: 20px;
   font-weight: 600;
  }
@@ -127,6 +148,38 @@ body {
 
  #btn-custom-secondary:hover {
   background-color: #728ca8;
+ }
+
+ .home-page-background-2 {
+  height: fit-content;
+  width: 100vw;
+  background-color: var(--charcoal);
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .home-page-container-2 {
+  display: block;
+  position: relative;
+  align-items: center;
+  padding-bottom: 100px;
+  padding-top: 80px;
+  color: var(--lightgrey);
+ }
+
+ .home-page-background-3 {
+  padding-top: 60px;
+  height: fit-content;
+  width: 100vw;
+  background-image: url(../src/@types/assets/cta-blob-scene.svg);
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
  }
 
 
