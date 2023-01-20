@@ -10,28 +10,30 @@ function Home() {
         <div className="home-page">
             <div className="home-page-background-1">
                 <div className="home-page-container-1">
-                    <Row className="home-page-title">
-                        <h1>Software engineering interviews are <span style={{color: "#de1867"}}>broken</span>. Hatchr is fixing the process.</h1>
-                    </Row>
-                    <Row className="home-page-subtitle">
-                        <h3>
-                            Hatchr is the platform for you to find your next software engineering job. 
-                            Forget studying for coding whiteboards, memorising obscure algorithms questions and bragging about what university you went to. 
-                            We focus on what actually matters for software engineering - your ability to build things with code.
-                        </h3>
-                    </Row>
-                    <Row className="button-box">
-                        <Col className="button-col">
-                            <Button id="btn-custom-primary" variant="primary">
-                                <h3>Get started</h3>
-                            </Button>
-                        </Col>
-                        <Col className="button-col">
-                            <Button id="btn-custom-secondary" variant="secondary">
-                                <h3>See coding tasks</h3>
-                            </Button>
-                        </Col>
-                    </Row>
+                    <Stack>
+                        <Row className="home-page-title">
+                            <h1>Software engineering interviews are <span style={{color: "#de1867"}}>broken</span>. Hatchr is fixing the process.</h1>
+                        </Row>
+                        <Row className="home-page-subtitle">
+                            <h3>
+                                Hatchr is the platform for you to find your next software engineering job. 
+                                Forget studying for coding whiteboards, memorising obscure algorithms questions and bragging about what university you went to. 
+                                We focus on what actually matters for software engineering - your ability to build things with code.
+                            </h3>
+                        </Row>
+                        <Row className="button-box">
+                            <Col className="button-col">
+                                <Button id="btn-custom-primary" variant="primary">
+                                    <h3>Get started</h3>
+                                </Button>
+                            </Col>
+                            <Col className="button-col">
+                                <Button id="btn-custom-secondary" variant="secondary">
+                                    <h3>See coding tasks</h3>
+                                </Button>
+                            </Col>
+                        </Row>
+                    </Stack>
                 </div>
             </div>
 

@@ -96,9 +96,10 @@ body {
  }
 
  .home-page-container-1 {
-  display: block;
+  display: flex;
   position: relative;
   align-items: center;
+  justify-content: center;
   width: 65vw;
   max-width: 750px;
  }
@@ -108,12 +109,15 @@ body {
   color: white;
   position: relative;
   display: block;
+  justify-content: center;
  }
 
  .home-page-subtitle {
   color: white;
   padding-bottom: 25px;
-  width: 60vw;
+  width: 65vw;
+  display: block;
+  justify-content: center;
  }
 
  .home-page-subtitle h3 {
@@ -184,7 +188,7 @@ body {
  }
 
  .home-page-col {
-  width: 35vw;
+  width: 36vw;
  }
 
  .home-page-container-3 {
@@ -224,6 +228,7 @@ body {
 
 /* COMPANY PAGE */
 .company-page-background {
+  padding-top: 120px;
   padding-bottom: 60px;
   height: 100vh;
   width: 100vw;
@@ -236,12 +241,24 @@ body {
 }
 
 .company-page-container {
-  display: block;
+  display: flex;
   position: relative;
   align-items: center;
-  width: 60vw;
+  justify-content: center;
+  width: 65vw;
   max-width: 750px;
 }
+
+.company-button-box {
+  display: flex;
+  position: relative;
+  justify-content: center;
+ }
+
+ .company-button-col {
+  display: flex;
+  justify-content: center;
+ }
 
 .email-entry {
   padding-top: 5px;
