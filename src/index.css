@@ -124,14 +124,9 @@ body {
   justify-content: center;
  }
 
- .button-box h3 {
-  font-size: 20px;
-  font-weight: 600;
- }
-
  .button-col {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
  }
 
  #btn-custom-primary {
@@ -221,6 +216,12 @@ body {
   max-width: 750px;
  }
 
+/* COMPANY PAGE */
+.email-entry {
+  padding-top: 5px;
+  margin-left: 20px;
+  width: 300px;
+}
 
  /* FONT STUFF */
 

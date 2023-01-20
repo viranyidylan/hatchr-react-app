@@ -25,6 +25,8 @@ function Home() {
                             <Button id="btn-custom-primary" variant="primary">
                                 <h3>Get started</h3>
                             </Button>
+                        </Col>
+                        <Col className="button-col">
                             <Button id="btn-custom-secondary" variant="secondary">
                                 <h3>See coding tasks</h3>
                             </Button>
