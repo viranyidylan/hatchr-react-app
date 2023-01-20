@@ -49,8 +49,8 @@ function MenuBar() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="menu-links">
-                        <Nav.Link href={navButtonPath}><h3>{"For " + navButtonText}</h3></Nav.Link>
-                        <Nav.Link href="/assessments"><h3>Coding tasks</h3></Nav.Link>
+                        <Nav.Link className='nav-link' href={navButtonPath}><h3>{"For " + navButtonText}</h3></Nav.Link>
+                        <Nav.Link className='nav-link' href="/assessments"><h3>Coding tasks</h3></Nav.Link>
                     </Nav>
                 </Navbar.Collapse> 
             </Container>

@@ -56,11 +56,15 @@ body {
   justify-content: end;
 }
 
-.menu-links h3 {
+.nav-link h3 {
   color: white;
 }
 
-.menu-links:hover {
+.nav-link:hover h3 {
+  color: var(--lightgrey);
+}
+
+.nav-link:active h3 {
   color: var(--lightgrey);
 }
 
