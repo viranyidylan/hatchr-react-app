@@ -175,6 +175,15 @@ body {
   color: var(--lightgrey);
  }
 
+ .home-page-container-3 {
+  display: block;
+  position: relative;
+  align-items: center;
+  padding-bottom: 100px;
+  padding-top: 80px;
+  color: var(--lightgrey);
+ }
+
  .home-page-background-3 {
   padding-top: 60px;
   height: fit-content;
@@ -185,6 +194,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+ }
+
+ .home-page-container-4 {
+  display: block;
+  position: relative;
+  align-items: center;
+  padding-bottom: 30px;
+  color: var(--lightgrey);
+  width: 70vw;
+  max-width: 750px;
  }
 
 

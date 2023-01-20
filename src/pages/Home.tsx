@@ -77,7 +77,18 @@ function Home() {
                 </div>
             </div>
             <div className="home-page-background-3">
-
+                <div className="home-page-container-4">
+                    <Row className="home-page-title">
+                        <h1>Ready to find your next software engineering job?</h1>
+                    </Row>
+                    <Row className="button-box">
+                        <Col className="button-col">
+                            <Button id="btn-custom-primary" variant="primary">
+                                <h3>Get started</h3>
+                            </Button>
+                        </Col>
+                    </Row>
+                </div>
             </div>
         </div>
     );
