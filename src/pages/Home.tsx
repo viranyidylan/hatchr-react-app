@@ -34,9 +34,9 @@ function Home() {
             <div className="home-page-background-2">
                 <div className="home-page-container-2">
                     <Row>
-                        <Col className="">
+                        <Col className="feature-col">
                             <Image1 />
-                            <h2>Complete a coding task to join top developers</h2>
+                            <h2 className="left">Complete a coding task to join top developers</h2>
                             <p>
                                 Pick up one of our coding tasks to showcase your skills 
                                 and become a member of our professional network of software developers. 
@@ -44,7 +44,7 @@ function Home() {
                                 We want to see you doing your best work with the languages and tools you're most comfortable.
                             </p>
                         </Col>
-                        <Col>
+                        <Col className="feature-col">
                             <Image2 />
                             <h2>Let your skills do the talking</h2>
                             <p>
@@ -54,7 +54,7 @@ function Home() {
                         </Col>
                     </Row>
                     <Row>
-                        <Col>
+                        <Col className="feature-col">
                             <Image3 />
                             <h2>Speak directly to companies</h2>
                             <p>
@@ -63,7 +63,7 @@ function Home() {
                                 (who don't even know the difference between Java and JavaScript 🤮)
                             </p>
                         </Col>
-                        <Col>
+                        <Col className="feature-col">
                             <Image4 />
                             <h2>Streamline your job search</h2>
                             <p>

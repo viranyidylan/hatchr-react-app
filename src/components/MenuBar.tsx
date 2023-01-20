@@ -39,7 +39,7 @@ function MenuBar() {
 
     return (
         <Navbar className="menu-bar" collapseOnSelect expand="md" variant='dark' fixed="top" hidden={hidden} >
-            <Container >
+            <Container fluid>
                 <Navbar.Brand>
                     <Logo height='40px'/> 
                 </Navbar.Brand>

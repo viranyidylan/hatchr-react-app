@@ -4,7 +4,7 @@
 }
 
 :root h1 {
-  font-size: 55px;
+  font-size: 54px;
   font-weight: 600;
   color: white;
 }
@@ -22,6 +22,7 @@
 
 :root p {
   font-size: 18px;
+  font-weight: 400;
 }
 
 :root {
@@ -170,6 +171,10 @@ body {
   color: var(--lightgrey);
  }
 
+ .feature-col {
+  
+ }
+
  .home-page-background-3 {
   padding-top: 60px;
   height: fit-content;
@@ -183,7 +188,7 @@ body {
  }
 
 
- /* font stuff */
+ /* FONT STUFF */
 
  /* cyrillic-ext */
  @font-face {
