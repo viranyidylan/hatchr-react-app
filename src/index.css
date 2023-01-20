@@ -19,10 +19,9 @@ body {
 /* MENU BAR */
 .menu-bar {
   height: 120px;
-  position: fixed;
-  display: flex;
-  justify-content: space-between;
-  z-index: 1;
+  width: 100vw;
+  position: absolute;
+  display: block;
 
   user-select: none;
 }
@@ -43,7 +42,7 @@ body {
   display: block;
  }
 
- .home-page-container-1 {
+ .home-page-background-1 {
   padding-top: 175px;
   padding-bottom: 80px;
   height: fit-content;
@@ -51,16 +50,28 @@ body {
   background-image: url(../src/@types/assets/hero-blob-scene.svg);
   background-size: cover;
   position: relative;
+  display: flex;
   align-items: center;
+  justify-content: center;
+ }
+
+ .home-page-container-1 {
+  display: block;
+  position: relative;
+  align-items: center;
+  width: 70vw;
+  max-width: 800px;
  }
 
  .home-page-title {
   padding-bottom: 30px;
   color: white;
+  position: relative;
+  display: block;
  }
 
  .home-page-title h1 {
-  font-size: 50px;
+  font-size: 55px;
   font-weight: bold;
  }
 

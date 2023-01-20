@@ -1,45 +1,58 @@
-import { Container, Nav, Navbar, Offcanvas } from 'react-bootstrap'
-import { ReactComponent as Logo } from '../@types/assets/hatchr-logo-white.svg'
-import React from 'react'
+import { Container, Nav, Navbar } from 'react-bootstrap';
+import { ReactComponent as Logo } from '../@types/assets/hatchr-logo-white.svg';
+import React, { useEffect, useState } from 'react';
 
-var navButtonText = "companies"
-var navButtonPath = "companies"
+var navButtonText = "companies";
+var navButtonPath = "companies";
 
 if (window.location.pathname === '/companies') {
-    navButtonText = "developers"
-    navButtonPath = "/"
+    navButtonText = "developers";
+    navButtonPath = "/";
 } else {
-    navButtonText = "companies"
-    navButtonPath = "/companies"
+    navButtonText = "companies";
+    navButtonPath = "/companies";
 }
 
 function MenuBar() {
+    const [hidden, setHidden] = useState(false);
+
+    const navControl = () => {
+        if (typeof window !== 'undefined') { 
+            if (window.scrollY < 70) { 
+                setHidden(false); 
+            } else {
+                setHidden(true);  
+            }
+        }
+    };
+    
+    useEffect(() => {
+        if (typeof window !== 'undefined') {
+            window.addEventListener('scroll', navControl);
+    
+            // cleanup function
+            return () => {
+            window.removeEventListener('scroll', navControl);
+            };
+        }
+    }, []);
+
     return (
-        <Navbar className="menu-bar" collapseOnSelect expand="lg" variant='dark' fixed="top" >
+        <Navbar className="menu-bar" collapseOnSelect expand="md" variant='dark' fixed="top" hidden={hidden} >
             <Container >
                 <Navbar.Brand>
                     <Logo height='40px'/> 
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="offcanvasNavbar-expand-${expand}" />
-                <Navbar.Offcanvas 
-                    id={`offcanvasNavbar-expand-${"lg"}`}
-                    aria-labelledby={`offcanvasNavbarLabel-expand-${"lg"}`}
-                    placement="end">
-                    <Offcanvas.Header closeButton>
-                        <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${"lg"}`}>
-                        lil menu
-                        </Offcanvas.Title>
-                    </Offcanvas.Header>
-                    <Offcanvas.Body>
-                        <Nav className="menu-links">
-                            <Nav.Link href={navButtonPath}>{"For " + navButtonText}</Nav.Link>
-                            <Nav.Link href="/assessments">Coding tasks</Nav.Link>
-                        </Nav>
-                    </Offcanvas.Body>
-                </Navbar.Offcanvas>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                    <Nav className="menu-links">
+                        <Nav.Link href={navButtonPath}>{"For " + navButtonText}</Nav.Link>
+                        <Nav.Link href="/assessments">Coding tasks</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse> 
             </Container>
         </Navbar>
-    )
+    );
 }
 
-export default MenuBar
+export default MenuBar;
