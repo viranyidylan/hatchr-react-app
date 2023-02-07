@@ -12,7 +12,7 @@ function Home() {
                 <div className="home-page-container-1">
                     <Stack>
                         <Row className="home-page-title">
-                            <h1>Software engineering interviews are <span style={{color: "#de1867"}}>broken</span>. Hatchr is fixing the process.</h1>
+                            <h1>Software engineering interviews are <span>broken</span>. Hatchr is fixing the process.</h1>
                         </Row>
                         <Row className="home-page-subtitle">
                             <h3>

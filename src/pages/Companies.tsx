@@ -8,7 +8,7 @@ function Companies() {
                 <div className="company-page-container">
                     <Stack>
                         <Row className="home-page-title">
-                            <h1>Access to South Africa's <span style={{color: "#de1867"}}>top developers</span>.</h1>
+                            <h1>Access to South Africa's <span>top developers</span>.</h1>
                         </Row>
                         <Row className="home-page-subtitle">
                             <Stack gap={3}>

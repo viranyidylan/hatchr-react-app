@@ -25,6 +25,10 @@
   font-weight: 400;
 }
 
+:root span {
+  color: var(--hotpink);
+}
+
 :root {
   --lightgrey: #b0b0b0;
   --hotpink: #de1867;
@@ -228,7 +232,6 @@ body {
 
 /* COMPANY PAGE */
 .company-page-background {
-  padding-top: 120px;
   padding-bottom: 60px;
   height: 100vh;
   width: 100vw;
@@ -265,6 +268,41 @@ body {
   margin-left: 20px;
   width: 300px;
 }
+
+/* ASSESSMENT PAGE */
+
+.assessment-page-background {
+  padding-bottom: 60px;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../src/@types/assets/hero-blob-scene.svg);
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.assessment-page-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 65vw;
+  max-width: 750px;
+  top: -80px;
+}
+
+
+/* TASK CARD */
+
+.task-card-container {
+  display: block;
+  padding: 10px;
+  background-color: var(--darkblue);
+  border: 2px solid var(--lightgrey);
+}
+
 
  /* FONT STUFF */
 
