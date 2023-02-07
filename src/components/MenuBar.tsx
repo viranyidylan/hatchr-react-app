@@ -44,8 +44,8 @@ function MenuBar() {
     };
 
     return (
-        <Navbar className="menu-bar" onToggle={expansionControl} expand="md" variant='dark' fixed="top" hidden={hidden} expanded={expanded} >
-            <Container fluid>
+        <Navbar className="menu-bar" onToggle={expansionControl} expand="lg" variant='dark' fixed="top" hidden={hidden} expanded={expanded} >
+            <Container fluid className="menu-bar-container">
                 <Navbar.Brand>
                     <Nav.Link href='/'>
                         <Logo height='40px'/> 

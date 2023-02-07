@@ -54,6 +54,11 @@ body {
   user-select: none;
 }
 
+.menu-bar-container {
+  width: 75vw;
+  max-width: 1200px;
+}
+
 .menu-links {
   position: relative;
   flex-grow: 1;
