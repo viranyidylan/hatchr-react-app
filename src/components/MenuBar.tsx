@@ -1,9 +1,10 @@
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { ReactComponent as Logo } from '../@types/assets/hatchr-logo-white.svg';
 import React, { useEffect, useState } from 'react';
 
 var navButtonText = "companies";
 var navButtonPath = "companies";
+var loginText = "Log in";
 
 if (window.location.pathname === '/companies') {
     navButtonText = "developers";
@@ -45,7 +46,7 @@ function MenuBar() {
 
     return (
         <Navbar className="menu-bar" onToggle={expansionControl} expand="lg" variant='dark' fixed="top" hidden={hidden} expanded={expanded} >
-            <Container fluid className="menu-bar-container">
+            <Container className="menu-bar-container">
                 <Navbar.Brand>
                     <Nav.Link href='/'>
                         <Logo height='40px'/> 
@@ -56,6 +57,9 @@ function MenuBar() {
                     <Nav className="menu-links">
                         <Nav.Link className='nav-link' href={navButtonPath}><h3>{"For " + navButtonText}</h3></Nav.Link>
                         <Nav.Link className='nav-link' href="/assessments"><h3>Coding tasks</h3></Nav.Link>
+                        <Button className='nav-button' id="btn-custom-primary" variant="primary">
+                            <h3>{loginText}</h3>
+                        </Button>
                     </Nav>
                 </Navbar.Collapse> 
             </Container>
