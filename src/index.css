@@ -30,6 +30,10 @@
   color: var(--hotpink);
 }
 
+:root a {
+  text-decoration: none;
+}
+
 :root {
   --lightgrey: #b0b0b0;
   --hotpink: #de1867;
@@ -40,6 +44,7 @@
   --indigo: #28264d;
   --darkblue: #171e25;
   --charcoal: #00070e;
+  --lightblue: #728ca8;
 }
 
 body {
@@ -190,7 +195,7 @@ body {
  }
 
  #btn-custom-secondary:hover {
-  background-color: #728ca8;
+  background-color: var(--lightblue);
  }
 
  .home-page-background-2 {
@@ -337,7 +342,6 @@ body {
   color: var(--lightgrey);
  }
 
-
 /* TASK CARD */
 
 .task-card-container {
@@ -360,6 +364,12 @@ body {
 
 .task-card-container h2 {
   color: white;
+  text-decoration: none;
+}
+
+.task-card-container:hover {
+  background-color: var(--lightblue);
+  border-color: var(--darkblue);
 }
 
 .task-icon {

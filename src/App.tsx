@@ -6,6 +6,7 @@ import Companies from './pages/Companies';
 import Assessments from './pages/Assessments';
 import NoRoute from './pages/NoRoute';
 import MenuBar from './components/MenuBar';
+import TaskPage from './pages/TaskPage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />}/> 
         <Route path="/companies" element={<Companies />}/>
         <Route path="/assessments" element={<Assessments />}/>
+        <Route path="/task" element={<TaskPage />} />
         <Route path='*' element={<NoRoute/>} />
       </Routes>
     </div>

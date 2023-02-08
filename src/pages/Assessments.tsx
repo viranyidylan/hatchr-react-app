@@ -1,6 +1,9 @@
 import React from "react";
 import { Row, Stack } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import TaskCard from "../components/TaskCard";
+
+const tasks: string[] = ["task1", "task2"];
 
 function Assessments() {
     return (
@@ -17,7 +20,20 @@ function Assessments() {
                             <h3>etc</h3>
                         </Row>
                         <Row>
-                            <TaskCard />
+                            <Stack gap={2}>
+                                {
+                                    tasks.map((task, key) => {
+
+                                        return (
+                                            <Link key={key} to='/'>
+                                                <TaskCard title={task}/>
+                                            </Link>
+                                        )
+
+                                    })
+                                }
+                            </Stack>
+                            
                         </Row>
                     </Stack>
                 </div>
