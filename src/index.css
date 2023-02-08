@@ -60,14 +60,17 @@ body {
 }
 
 .menu-bar-container {
-  width: 65vw;
-  max-width: 1100px;
+  width: 90vw!important;
+  min-width: 650px;
+  max-width: 1200px!important;
 }
 
 .menu-links {
   position: relative;
+  display: flex;
   flex-grow: 1;
   justify-content: end;
+  align-items: center;
   margin-top: 20px;
 }
 
@@ -88,7 +91,13 @@ body {
 }
 
 .nav-button {
-  margin-right: 45px; 
+  margin-right: 25px;
+  margin-bottom: 7px;
+  height: 40px;
+}
+
+.nav-button h3 {
+  margin-top: -5px;
 }
 
  /* HOME PAGE */

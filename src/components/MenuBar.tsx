@@ -49,7 +49,7 @@ function MenuBar() {
             <Container className="menu-bar-container">
                 <Navbar.Brand>
                     <Nav.Link href='/'>
-                        <Logo height='40px'/> 
+                        <Logo height='40px' width='200px'/> 
                     </Nav.Link>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
