@@ -8,12 +8,12 @@ function Assessments() {
             <div className="assessment-page-background">
                 <div className="assessment-page-container">
                     <Stack>
-                        <Row className="home-page-title">
+                        <Row className="assessment-page-title">
                             <h1>Coding tasks <span>page</span>.</h1>
                         </Row>
-                        <Row className="home-page-subtitle">
-                            <h3>blah blah blah </h3>
-                            <h3>lalalallalaa </h3>
+                        <Row className="assessment-page-subtitle">
+                            <h3>blah blah blah</h3>
+                            <h3>lalalallalaa</h3>
                             <h3>etc</h3>
                         </Row>
                         <Row>

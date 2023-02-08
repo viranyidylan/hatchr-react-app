@@ -1,12 +1,13 @@
 import React from 'react';
-import { Container, Row } from 'react-bootstrap';
+import { Image, Container, Stack } from 'react-bootstrap';
 
 function TaskCard() {
   return (
     <Container className="task-card-container">
-      <Row>
-        <h2>Hi</h2>
-      </Row>
+      <Stack direction='horizontal' gap={3}>
+        <Image className="task-icon" src='logo192.png'></Image>
+        <h2>Task 1: Something about JavaScript!</h2>
+      </Stack>
     </Container>
   );
 }
