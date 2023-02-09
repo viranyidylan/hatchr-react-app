@@ -1,3 +1,5 @@
+import React from "react";
+
 function Assessments() {
     return (
         <div className="home-page">
