@@ -66,7 +66,7 @@ body {
 }
 
 .menu-bar-container {
-  width: 90vw!important;
+  width: 75vw!important;
   min-width: 650px;
   max-width: 1200px!important;
 }
@@ -322,7 +322,6 @@ body {
   justify-content: center;
   width: 65vw;
   max-width: 750px;
-  top: -80px;
 }
 
 .assessment-page-title {
@@ -359,8 +358,8 @@ body {
 
   word-break: normal;
 
-  background-color: var(--darkblue);
-  border: 2px solid var(--lightgrey);
+  background-color: var(--charcoal);
+  border: 2px solid rgb(223, 220, 220);
   border-radius: 10px;
   text-align: left;
 }

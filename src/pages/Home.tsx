@@ -5,6 +5,9 @@ import { ReactComponent as Image2 } from '../@types/assets/report.svg';
 import { ReactComponent as Image3 } from '../@types/assets/chat.svg';
 import { ReactComponent as Image4 } from '../@types/assets/electric.svg';
 
+const width = "36px";
+const height = "36px";
+
 function Home() {
     return (
         <div className="home-page">
@@ -12,19 +15,18 @@ function Home() {
                 <div className="home-page-container-1">
                     <Stack>
                         <Row className="home-page-title">
-                            <h1>Software engineering interviews are <span>broken</span>. Hatchr is fixing the process.</h1>
+                            <h1>Find your next software engineering job with <span>hatchr</span>.</h1>
                         </Row>
                         <Row className="home-page-subtitle">
                             <h3>
-                                Hatchr is the platform for you to find your next software engineering job. 
-                                Forget studying for coding whiteboards, memorising obscure algorithms questions and bragging about what university you went to. 
-                                We focus on what actually matters for software engineering - your ability to build things with code.
+                            Software engineering job search is broken. Hatchr is working on fixing the process. 
+                Forget whiteboards, algorithms, and constant cv tweaking - let your technical skills speak for themselves.
                             </h3>
                         </Row>
                         <Row className="button-box">
                             <Col className="button-col">
                                 <Stack direction="horizontal" gap={4}>
-                                    <Button id="btn-custom-primary" variant="primary">
+                                    <Button id="btn-custom-primary" variant="primary" href="/assessments">
                                         <h3>Get started</h3>
                                     </Button>
                                     <Button id="btn-custom-secondary" variant="secondary" href="/assessments">
@@ -44,7 +46,7 @@ function Home() {
                         <Row>
                             <Col >
                                 <Stack className="home-page-col" gap={4}>
-                                    <Image1 height="25px"/>
+                                    <Image1 width="48px" height={height}/>
                                     <h2 className="left">Complete a coding task to join top developers</h2>
                                     <p>
                                         Pick up one of our coding tasks to showcase your skills 
@@ -56,7 +58,7 @@ function Home() {
                             </Col>
                             <Col >
                                 <Stack className="home-page-col" gap={4}>
-                                    <Image2 height="25px"/>
+                                    <Image2 width={width} height={height}/>
                                     <h2>Let your skills do the talking</h2>
                                     <p>
                                         Hatchr shifts the focus away from prestigious credentials, background or personal branding, 
@@ -68,7 +70,7 @@ function Home() {
                         <Row>
                             <Col >
                                 <Stack className="home-page-col" gap={4}>
-                                    <Image3 height="25px"/>
+                                    <Image3 width={width} height={height}/>
                                     <h2>Speak directly to companies</h2>
                                     <p>
                                         We help developers find jobs at awesome companies. 
@@ -79,7 +81,7 @@ function Home() {
                             </Col>
                             <Col >
                                 <Stack className="home-page-col" gap={4}>
-                                    <Image4 height="25px"/>
+                                    <Image4 width={width} height={height}/>
                                     <h2>Streamline your job search</h2>
                                     <p>
                                         Stop sending your resume to different job boards and wondering if you'll hear back. 
@@ -174,7 +176,7 @@ function Home() {
                     </Row>
                     <Row className="button-box">
                         <Col className="button-col">
-                            <Button id="btn-custom-primary" variant="primary">
+                            <Button id="btn-custom-primary" variant="primary" href="/assessments">
                                 <h3>Get started</h3>
                             </Button>
                         </Col>

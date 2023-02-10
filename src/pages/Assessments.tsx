@@ -3,7 +3,7 @@ import { Row, Stack } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import TaskCard from "../components/TaskCard";
 
-const tasks: string[] = ["task1", "task2"];
+const tasks: string[] = ["task 1: something about react or javascript or blah blah blah blah ", "task2"];
 
 function Assessments() {
     return (
