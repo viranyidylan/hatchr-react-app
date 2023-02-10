@@ -284,6 +284,17 @@ body {
   max-width: 750px;
 }
 
+.company-button-box {
+  display: flex;
+  position: relative;
+  justify-content: center;
+ }
+
+ .company-button-col {
+  display: flex;
+  justify-content: center;
+ }
+
 .email-entry {
   padding-top: 5px;
   margin-left: 20px;
