@@ -148,9 +148,11 @@ body {
  .home-page-subtitle {
   color: white;
   padding-bottom: 25px;
-  width: 65vw;
+  width: 90%;
+  position: relative;
   display: block;
   justify-content: center;
+  align-self: center;
  }
 
  .home-page-subtitle h3 {
@@ -161,6 +163,7 @@ body {
   display: flex;
   position: relative;
   justify-content: center;
+  align-self: center;
  }
 
  .button-col {
@@ -216,12 +219,12 @@ body {
   padding-bottom: 100px;
   padding-top: 80px;
   color: var(--lightgrey);
-  width: 80vw;
+  width: 65vw;
   text-align: left;
  }
 
  .home-page-col {
-  width: 36vw;
+  width: 30vw;
  }
 
  .home-page-container-3 {
@@ -230,7 +233,7 @@ body {
   align-items: center;
   padding-bottom: 60px;
   color: var(--lightgrey);
-  width: 68vw;
+  width: 60vw;
  }
 
  .faq-heading {
@@ -280,17 +283,6 @@ body {
   width: 65vw;
   max-width: 750px;
 }
-
-.company-button-box {
-  display: flex;
-  position: relative;
-  justify-content: center;
- }
-
- .company-button-col {
-  display: flex;
-  justify-content: center;
- }
 
 .email-entry {
   padding-top: 5px;

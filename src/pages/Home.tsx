@@ -27,7 +27,7 @@ function Home() {
                                     <Button id="btn-custom-primary" variant="primary">
                                         <h3>Get started</h3>
                                     </Button>
-                                    <Button id="btn-custom-secondary" variant="secondary">
+                                    <Button id="btn-custom-secondary" variant="secondary" href="/assessments">
                                         <h3>See coding tasks</h3>
                                     </Button>
                                 </Stack>
@@ -40,11 +40,11 @@ function Home() {
 
             <div className="home-page-background-2">
                 <div className="home-page-container-2">
-                    <Stack gap={5}>
+                    <Stack gap={4}>
                         <Row>
                             <Col >
                                 <Stack className="home-page-col" gap={4}>
-                                    <Image1 />
+                                    <Image1 height="25px"/>
                                     <h2 className="left">Complete a coding task to join top developers</h2>
                                     <p>
                                         Pick up one of our coding tasks to showcase your skills 
@@ -56,7 +56,7 @@ function Home() {
                             </Col>
                             <Col >
                                 <Stack className="home-page-col" gap={4}>
-                                    <Image2 />
+                                    <Image2 height="25px"/>
                                     <h2>Let your skills do the talking</h2>
                                     <p>
                                         Hatchr shifts the focus away from prestigious credentials, background or personal branding, 
@@ -68,18 +68,18 @@ function Home() {
                         <Row>
                             <Col >
                                 <Stack className="home-page-col" gap={4}>
-                                    <Image3 />
+                                    <Image3 height="25px"/>
                                     <h2>Speak directly to companies</h2>
                                     <p>
                                         We help developers find jobs at awesome companies. 
                                         Companies contact you directly, no dealing with third-party recruiters 
-                                        (who don't even know the difference between Java and JavaScript 🤮)
+                                        (who don't even know the difference between Java and JavaScript 🤮).
                                     </p>
                                 </Stack>
                             </Col>
                             <Col >
                                 <Stack className="home-page-col" gap={4}>
-                                    <Image4 />
+                                    <Image4 height="25px"/>
                                     <h2>Streamline your job search</h2>
                                     <p>
                                         Stop sending your resume to different job boards and wondering if you'll hear back. 

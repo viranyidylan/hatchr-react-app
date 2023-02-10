@@ -17,6 +17,7 @@ if (window.location.pathname === '/companies') {
 function MenuBar() {
     const [hidden, setHidden] = useState(false);
     const [expanded, setExpanded] = useState(false);
+    // const [loggedIn, setLoggedIn] = useState(false);
 
     const navControl = () => {
         if (typeof window !== 'undefined') { 
