@@ -1,11 +1,43 @@
 import React from "react";
+import { Row, Stack } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import TaskCard from "../components/TaskCard";
+
+const tasks: string[] = ["task1", "task2"];
 
 function Assessments() {
     return (
         <div className="home-page">
-            <header className="App-header">
-                <h1>this is the assessments page</h1>
-            </header>
+            <div className="assessment-page-background">
+                <div className="assessment-page-container">
+                    <Stack>
+                        <Row className="assessment-page-title">
+                            <h1>Coding tasks <span>page</span>.</h1>
+                        </Row>
+                        <Row className="assessment-page-subtitle">
+                            <h3>blah blah blah</h3>
+                            <h3>lalalallalaa</h3>
+                            <h3>etc</h3>
+                        </Row>
+                        <Row>
+                            <Stack gap={2}>
+                                {
+                                    tasks.map((task, key) => {
+
+                                        return (
+                                            <Link key={key} to='/'>
+                                                <TaskCard title={task}/>
+                                            </Link>
+                                        )
+
+                                    })
+                                }
+                            </Stack>
+                            
+                        </Row>
+                    </Stack>
+                </div>
+            </div>
         </div>
     );
 }
