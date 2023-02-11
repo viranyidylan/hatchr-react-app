@@ -1,5 +1,5 @@
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
-import { ReactComponent as Logo } from '../@types/assets/hatchr-logo-white.svg';
+import { ReactComponent as Logo } from '../assets/hatchr-logo-white.svg';
 import React, { useEffect, useState } from 'react';
 
 var navButtonText = "companies";
