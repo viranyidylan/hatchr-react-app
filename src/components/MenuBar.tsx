@@ -1,5 +1,5 @@
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
-import { ReactComponent as Logo } from '../assets/hatchr-logo-white.svg';
+import { ReactComponent as Logo } from '../@types/assets/hatchr-logo-white.svg';
 import React, { useEffect, useState } from 'react';
 
 var navButtonText = "companies";
@@ -17,6 +17,7 @@ if (window.location.pathname === '/companies') {
 function MenuBar() {
     const [hidden, setHidden] = useState(false);
     const [expanded, setExpanded] = useState(false);
+    // const [loggedIn, setLoggedIn] = useState(false);
 
     const navControl = () => {
         if (typeof window !== 'undefined') { 
