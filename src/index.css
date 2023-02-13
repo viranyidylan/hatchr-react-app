@@ -805,6 +805,7 @@ body {
 }
 
 .assessment-page-container {
+  padding-top: 250px;
     display: flex;
     position: relative;
     align-items: center;
@@ -857,6 +858,17 @@ body {
 .task-card-container h2 {
     color: white;
     text-decoration: none;
+}
+
+.task-card-container a {
+    color: white;
+}
+
+.task-card-container a:hover {
+    color: rgb(212, 212, 212);
+}
+.task-card-container h3 {
+    color: rgb(138, 133, 133);
 }
 
 .task-card-container:hover {
