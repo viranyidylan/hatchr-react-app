@@ -56,57 +56,6 @@ body {
   padding: none;
 }
 
-/* MENU BAR */
-.menu-bar {
-  height: 120px;
-  width: 100vw;
-  position: absolute;
-  display: block;
-
-  user-select: none;
-}
-
-.menu-bar-container {
-  width: 90vw!important;
-  min-width: 650px;
-  max-width: 1200px!important;
-}
-
-.menu-links {
-  position: relative;
-  display: flex;
-  flex-grow: 1;
-  justify-content: end;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.nav-link {
-  margin-right: 25px;
-}
-
-.nav-link h3 {
-  color: white;
-}
-
-.nav-link:hover h3 {
-  color: var(--lightgrey);
-}
-
-.nav-link:active h3 {
-  color: var(--lightgrey);
-}
-
-.nav-button {
-  margin-right: 25px;
-  margin-bottom: 7px;
-  height: 40px;
-}
-
-.nav-button h3 {
-  margin-top: -5px;
-}
-
  /* HOME PAGE */
 
  .home-page {
