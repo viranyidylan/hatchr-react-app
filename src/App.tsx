@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import Companies from './pages/Companies';
 import Assessments from './pages/Assessments';
 import NoRoute from './pages/NoRoute';
-import MenuBar from './components/MenuBar';
+import MenuBar from './components/MenuBar/MenuBar';
 import TaskPage from './pages/TaskPage';
 
 function App() {
