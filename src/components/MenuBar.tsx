@@ -58,9 +58,9 @@ function MenuBar() {
                     <Nav className="menu-links">
                         <Nav.Link className='nav-link' href={navButtonPath}><h3>{"For " + navButtonText}</h3></Nav.Link>
                         <Nav.Link className='nav-link' href="/assessments"><h3>Coding tasks</h3></Nav.Link>
-                        <Button className='nav-button' id="btn-custom-primary" variant="primary">
+                        {/* <Button className='nav-button' id="btn-custom-primary" variant="primary">
                             <h3>{loginText}</h3>
-                        </Button>
+                        </Button> */}
                     </Nav>
                 </Navbar.Collapse> 
             </Container>

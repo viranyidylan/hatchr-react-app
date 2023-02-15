@@ -7,6 +7,7 @@ import Assessments from './pages/Assessments';
 import NoRoute from './pages/NoRoute';
 import MenuBar from './components/MenuBar';
 import TaskPage from './pages/TaskPage';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
