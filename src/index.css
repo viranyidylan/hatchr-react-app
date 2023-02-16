@@ -213,6 +213,7 @@ body {
  }
 
 /* COMPANY PAGE */
+
 .company-page-background {
   padding-bottom: 60px;
   height: 100vh;
@@ -244,6 +245,26 @@ body {
   margin-left: 20px;
   width: 300px;
 }
+
+.company-page-subtitle {
+  color: white;
+  padding-bottom: 25px;
+  width: 90%;
+  position: relative;
+  display: block;
+  justify-content: center;
+  align-self: center;
+ }
+
+ .company-button-box h3 {
+  color: white;
+ }
+
+
+ .company-page-subtitle h3 {
+  color: var(--lightgrey);
+ }
+
 
 /* ASSESSMENT PAGE */
 
