@@ -1,9 +1,26 @@
 import React from "react";
 import { Row, Stack } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import TaskCard from "../components/TaskCard";
+import TaskCard from "../components/TaskCard/TaskCard";
 
-const tasks: string[] = ["task 1: something about react or javascript or blah blah blah blah ", "task2"];
+class Task {
+    name: string;
+    available: boolean;
+    link: string;
+    tech: string;
+}
+
+const tasks: Task[] = [
+    { name: "React task - intermediate", available: true, link: "https://github.com/viranyidylan/intermediate-react-task", tech: "React" },
+    { name: "React task - beginner", available: false, link: "", tech: "React" },
+    { name: "React task - senior", available: false, link: "", tech: "React" },
+    { name: "Angular task - beginner", available: false, link: "", tech: "Angular" },
+    { name: "Angular task - intermediate", available: false, link: "", tech: "Angular" },
+    { name: "Angular task - senior", available: false, link: "", tech: "Angular" },
+    { name: "Node.js task - intermediate", available: false, link: "", tech: "Node" },
+]
+
+const tasksOld: string[] = ["React task - intermediate", "React task - junior", "React task - senior"];
 
 function Assessments() {
     return (
@@ -12,12 +29,10 @@ function Assessments() {
                 <div className="assessment-page-container">
                     <Stack>
                         <Row className="assessment-page-title">
-                            <h1>Coding tasks <span>page</span>.</h1>
+                            <h1>Coding tasks</h1>
                         </Row>
                         <Row className="assessment-page-subtitle">
-                            <h3>blah blah blah</h3>
-                            <h3>lalalallalaa</h3>
-                            <h3>etc</h3>
+                            <h3>Click on a coding task below to get started</h3>
                         </Row>
                         <Row>
                             <Stack gap={2}>
@@ -25,9 +40,7 @@ function Assessments() {
                                     tasks.map((task, key) => {
 
                                         return (
-                                            <Link key={key} to='/'>
-                                                <TaskCard title={task}/>
-                                            </Link>
+                                            <TaskCard key={key} task={task}/>
                                         )
 
                                     })
