@@ -17,11 +17,9 @@ const tasks: Task[] = [
     { name: "React task - senior", available: false, link: "", tech: "React" },
     { name: "Angular task - beginner", available: false, link: "", tech: "Angular" },
     { name: "Angular task - intermediate", available: false, link: "", tech: "Angular" },
-    { name: "Angular task - senior", available: false, link: "", tech: "Angular" },
-    { name: "Node.js task - intermediate", available: false, link: "", tech: "Node" },
+    // { name: "Angular task - senior", available: false, link: "", tech: "Angular" },
+    // { name: "Node.js task - intermediate", available: false, link: "", tech: "Node" },
 ]
-
-const tasksOld: string[] = ["React task - intermediate", "React task - junior", "React task - senior"];
 
 function Assessments() {
     return (
