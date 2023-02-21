@@ -1,8 +1,8 @@
 /* COMPANY PAGE */
 
 .company-page-background {
+  padding-top: 180px;
   padding-bottom: 60px;
-  height: 100vh;
   width: 100vw;
   background-image: url(../../@types/assets/hero-blob-scene.svg);
   background-size: cover;
