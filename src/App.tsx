@@ -1,12 +1,12 @@
 import './App.css';
 import React from 'react';
 import { Routes, Route } from "react-router-dom";
-import Home from './pages/Home';
-import Companies from './pages/Companies';
-import Assessments from './pages/Assessments';
-import NoRoute from './pages/NoRoute';
+import Home from './pages/Home/Home';
+import Companies from './pages/Companies/Companies';
+import Assessments from './pages/Assessments/Assessments';
+import NoRoute from './pages/NoRoute/NoRoute';
 import MenuBar from './components/MenuBar/MenuBar';
-import TaskPage from './pages/TaskPage';
+import TaskPage from './pages/TaskPage/TaskPage';
 
 function App() {
   return (

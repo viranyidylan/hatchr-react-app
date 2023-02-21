@@ -1,11 +1,12 @@
 import React from "react";
 import { Button, Col, Form, Row, Stack } from "react-bootstrap";
-import { ReactComponent as Image1 } from '../@types/assets/performance.svg';
-import { ReactComponent as Image2 } from '../@types/assets/savemoney.svg';
-import { ReactComponent as Image3 } from '../@types/assets/stack.svg';
-import { ReactComponent as Image4 } from '../@types/assets/database.svg';
-import { ReactComponent as Image5 } from '../@types/assets/time.svg';
-import { ReactComponent as Image6 } from '../@types/assets/engineers.svg';
+import { ReactComponent as Image1 } from '../../@types/assets/performance.svg';
+import { ReactComponent as Image2 } from '../../@types/assets/savemoney.svg';
+import { ReactComponent as Image3 } from '../../@types/assets/stack.svg';
+import { ReactComponent as Image4 } from '../../@types/assets/database.svg';
+import { ReactComponent as Image5 } from '../../@types/assets/time.svg';
+import { ReactComponent as Image6 } from '../../@types/assets/engineers.svg';
+import './Companies.css';
 
 const width = "36px";
 const height = "36px";

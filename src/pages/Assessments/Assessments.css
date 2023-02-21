@@ -1,0 +1,45 @@
+/* ASSESSMENT PAGE */
+
+.assessment-page-background {
+  padding-bottom: 60px;
+  height: 100vh;
+  width: 100vw;
+  min-height: fit-content;
+  background-image: url(../../@types/assets/hero-blob-scene.svg);
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.assessment-page-container {
+margin-top: 160px;
+display: flex;
+position: relative;
+align-items: center;
+justify-content: center;
+width: 65vw;
+max-width: 750px;
+}
+
+.assessment-page-title {
+  padding-bottom: 30px;
+  color: white;
+  position: relative;
+  display: block;
+  justify-content: center;
+}
+
+.assessment-page-subtitle {
+  color: white;
+  padding-bottom: 25px;
+  width: 65vw;
+  display: block;
+  justify-content: center;
+}
+
+.assessment-page-subtitle h3 {
+  color: var(--lightgrey);
+}
+
