@@ -1,7 +1,8 @@
 import React from "react";
 import { Row, Stack } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import TaskCard from "../components/TaskCard/TaskCard";
+import TaskCard from "../../components/TaskCard/TaskCard";
+import './Assessments.css';
 
 class Task {
     name: string;

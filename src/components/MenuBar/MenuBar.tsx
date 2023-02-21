@@ -21,23 +21,23 @@ function MenuBar() {
     // const [loggedIn, setLoggedIn] = useState(false);
 
     const navControl = () => {
-        if (typeof window !== 'undefined') { 
-            if (window.scrollY < 70) { 
-                setHidden(false); 
+        if (typeof window !== 'undefined') {
+            if (window.scrollY < 70) {
+                setHidden(false);
             } else {
                 setHidden(true);
                 setExpanded(false);
             }
         }
     };
-    
+
     useEffect(() => {
         if (typeof window !== 'undefined') {
             window.addEventListener('scroll', navControl);
-    
+
             // cleanup function
             return () => {
-            window.removeEventListener('scroll', navControl);
+                window.removeEventListener('scroll', navControl);
             };
         }
     }, []);
@@ -51,7 +51,7 @@ function MenuBar() {
             <Container className="menu-bar-container">
                 <Navbar.Brand>
                     <Nav.Link href='/'>
-                        <Logo height='40px' width='200px'/> 
+                        <Logo height='40px' width='200px' />
                     </Nav.Link>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -64,7 +64,7 @@ function MenuBar() {
                             <h3>{loginText}</h3>
                         </Button> */}
                     </Nav>
-                </Navbar.Collapse> 
+                </Navbar.Collapse>
             </Container>
         </Navbar>
     );
