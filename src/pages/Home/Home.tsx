@@ -1,9 +1,10 @@
 import React from "react";
 import { Button, Col, Row, Stack } from "react-bootstrap";
-import { ReactComponent as Image1 } from '../@types/assets/code.svg';
-import { ReactComponent as Image2 } from '../@types/assets/report.svg';
-import { ReactComponent as Image3 } from '../@types/assets/chat.svg';
-import { ReactComponent as Image4 } from '../@types/assets/electric.svg';
+import { ReactComponent as Image1 } from '../../@types/assets/code.svg';
+import { ReactComponent as Image2 } from '../../@types/assets/report.svg';
+import { ReactComponent as Image3 } from '../../@types/assets/chat.svg';
+import { ReactComponent as Image4 } from '../../@types/assets/electric.svg';
+import './Home.css';
 
 const width = "36px";
 const height = "36px";

@@ -1,11 +1,12 @@
 import React from "react";
 import { Button, Col, Form, Row, Stack } from "react-bootstrap";
-import { ReactComponent as Image1 } from '../@types/assets/performance.svg';
-import { ReactComponent as Image2 } from '../@types/assets/savemoney.svg';
-import { ReactComponent as Image3 } from '../@types/assets/stack.svg';
-import { ReactComponent as Image4 } from '../@types/assets/database.svg';
-import { ReactComponent as Image5 } from '../@types/assets/time.svg';
-import { ReactComponent as Image6 } from '../@types/assets/engineers.svg';
+import { ReactComponent as Image1 } from '../../@types/assets/performance.svg';
+import { ReactComponent as Image2 } from '../../@types/assets/savemoney.svg';
+import { ReactComponent as Image3 } from '../../@types/assets/stack.svg';
+import { ReactComponent as Image4 } from '../../@types/assets/database.svg';
+import { ReactComponent as Image5 } from '../../@types/assets/time.svg';
+import { ReactComponent as Image6 } from '../../@types/assets/engineers.svg';
+import './Companies.css';
 
 const width = "36px";
 const height = "36px";
@@ -19,7 +20,7 @@ function Companies() {
                         <Row className="home-page-title">
                             <h1>Streamline your tech hiring with <span>hatchr</span>.</h1>
                         </Row>
-                        <Row className="company-page-subtitle">
+                        <Row className="home-page-subtitle">
                             <Stack gap={3}>
                                 <h3>Connect with pre-screened software engineers who have demonstrated their technical skills with
                                     real-world work sample tasks.</h3>
@@ -27,11 +28,12 @@ function Companies() {
                         </Row>
                         <Row className="company-button-box">
                             <Col className="company-button-col">
-                            <form action="https://formsubmit.co/c7ee77a7853c5344757ccbc3b5a53104 " target="_blank" method="POST">
-                                <button  id="btn-custom-primary" type="submit"><h3>Get in touch</h3></button>
-
-                                    <input className="email-entry" type="email" name="email" required />
-                                </form> 
+                                <Button id="btn-custom-primary" variant="primary">
+                                    <h3>Get in touch</h3>
+                                </Button>
+                                <Form className="email-entry">
+                                    <Form.Control type="email" placeholder="Enter email" />
+                                </Form>
                             </Col>
                         </Row>
                     </Stack>

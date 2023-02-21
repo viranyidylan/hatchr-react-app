@@ -1,0 +1,54 @@
+/* COMPANY PAGE */
+
+.company-page-background {
+  padding-top: 180px;
+  padding-bottom: 60px;
+  width: 100vw;
+  background-image: url(../../@types/assets/hero-blob-scene.svg);
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.company-page-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 65vw;
+  max-width: 750px;
+}
+
+.company-button-col {
+  display: flex;
+  justify-content: center;
+}
+
+.email-entry {
+  padding-top: 5px;
+  margin-left: 20px;
+  width: 300px;
+}
+
+.company-page-subtitle {
+  color: white;
+  padding-bottom: 25px;
+  width: 90%;
+  position: relative;
+  display: block;
+  justify-content: center;
+  align-self: center;
+ }
+
+ .company-button-box h3 {
+  color: white;
+ }
+
+
+ .company-page-subtitle h3 {
+  color: var(--lightgrey);
+ }
+
+
