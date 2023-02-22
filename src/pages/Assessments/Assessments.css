@@ -19,7 +19,7 @@ display: flex;
 position: relative;
 align-items: center;
 justify-content: center;
-width: 65vw;
+width: 65%;
 max-width: 750px;
 }
 
@@ -36,6 +36,8 @@ max-width: 750px;
   padding-bottom: 25px;
   width: 65vw;
   display: block;
+  position: relative;
+  align-items: center;
   justify-content: center;
 }
 
