@@ -32,7 +32,7 @@ function Companies() {
                                     <h3>Get in touch</h3>
                                 </Button>
                                 <Form className="email-entry">
-                                    <Form.Control type="email" placeholder="Enter email" />
+                                    <Form.Control type="email" placeholder="yourname@company.com" />
                                 </Form>
                             </Col>
                         </Row>
