@@ -23,7 +23,7 @@ const tasks: Task[] = [
 
 function Assessments() {
     return (
-        <div className="home-page">
+        <div className="assessment-page">
             <div className="assessment-page-background">
                 <div className="assessment-page-container">
                     <Stack>
