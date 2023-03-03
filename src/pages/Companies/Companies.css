@@ -23,11 +23,11 @@
 
 .company-button-col {
   display: flex;
+  align-items: flex-start;
   justify-content: center;
 }
 
 .email-entry {
-  padding-top: 5px;
   margin-left: 20px;
   width: 300px;
 }
@@ -45,7 +45,6 @@
  .company-button-box h3 {
   color: white;
  }
-
 
  .company-page-subtitle h3 {
   color: var(--lightgrey);
