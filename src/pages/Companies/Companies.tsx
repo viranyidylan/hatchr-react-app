@@ -13,14 +13,14 @@ const height = "30px";
 
 function Companies() {
     return (
-        <div className="home-page">
+        <div className="company-page">
             <div className="company-page-background">
                 <div className="company-page-container">
                     <Stack>
-                        <Row className="home-page-title">
+                        <Row className="company-page-title">
                             <h1>Streamline your tech hiring with <span>hatchr</span>.</h1>
                         </Row>
-                        <Row className="home-page-subtitle">
+                        <Row className="company-page-subtitle">
                             <Stack gap={3}>
                                 <h3>Connect with pre-screened software engineers who have demonstrated their technical skills with
                                     real-world work sample tasks.</h3>
@@ -40,12 +40,12 @@ function Companies() {
                     
                 </div>
             </div>
-            <div className="home-page-background-2">
-                <div className="home-page-container-2">
+            <div className="company-page-background-2">
+                <div className="company-page-container-2">
                     <Stack gap={4}>
                         <Row>
                             <Col >
-                                <Stack className="home-page-col" gap={4}>
+                                <Stack className="company-page-col" gap={4}>
                                     <Image1 width={width} height={height}/>
                                     <h2 className="left">Identify top-performing candidates with practical assessments</h2>
                                     <p>
@@ -55,7 +55,7 @@ function Companies() {
                                 </Stack>
                             </Col>
                             <Col >
-                                <Stack className="home-page-col" gap={4}>
+                                <Stack className="company-page-col" gap={4}>
                                     <Image2 width={width} height={height}/>
                                     <h2>Pay only for successful hires</h2>
                                     <p>
@@ -67,7 +67,7 @@ function Companies() {
                         </Row>
                         <Row>
                             <Col >
-                                <Stack className="home-page-col" gap={4}>
+                                <Stack className="company-page-col" gap={4}>
                                     <Image3 width={width} height={height}/>
                                     <h2>Framework specific assessments that reflect your company's tech stack</h2>
                                     <p>
@@ -77,7 +77,7 @@ function Companies() {
                                 </Stack>
                             </Col>
                             <Col >
-                                <Stack className="home-page-col" gap={4}>
+                                <Stack className="company-page-col" gap={4}>
                                     <Image4 width={width} height={height}/>
                                     <h2>Access a pool of highly-skilled software engineers who are eager to interview</h2>
                                     <p>
@@ -89,7 +89,7 @@ function Companies() {
                         </Row>
                         <Row>
                             <Col >
-                                <Stack className="home-page-col" gap={4}>
+                                <Stack className="company-page-col" gap={4}>
                                     <Image5 width={width} height={height}/>
                                     <h2>Save your engineers wasting time interviewing insufficiently skilled candidates</h2>
                                     <p>
@@ -99,7 +99,7 @@ function Companies() {
                                 </Stack>
                             </Col>
                             <Col >
-                                <Stack className="home-page-col" gap={4}>
+                                <Stack className="company-page-col" gap={4}>
                                     <Image6 width={width} height={height}/>
                                     <h2>Built by and for software engineers</h2>
                                     <p>
