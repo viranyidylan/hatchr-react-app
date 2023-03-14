@@ -60,12 +60,9 @@ body {
   border-radius: 15px; 
   background-color: var(--hotpink);
   border: none;
-  height: 38px;
-  min-width: fit-content;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 9px;
-  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
  }
 
  #btn-custom-primary:hover {
@@ -80,11 +77,9 @@ body {
   border-radius: 15px; 
   background-color: var(--darkblue);
   border: none;
-  height: 38px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 9px;
-  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
  }
 
  #btn-custom-secondary:hover {
