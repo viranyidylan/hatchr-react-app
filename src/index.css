@@ -5,19 +5,19 @@
 }
 
 :root h1 {
-  font-size: 54px;
+  font-size: 44px;
   font-weight: 600;
   color: white;
 }
 
 :root h2 {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 600;
   color: white;
 }
 
 :root h3 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
 }
 
@@ -62,7 +62,7 @@ body {
   border: none;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 12px;
+  padding-top: 15px;
  }
 
  #btn-custom-primary:hover {
@@ -79,7 +79,7 @@ body {
   border: none;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 12px;
+  padding-top: 15px;
  }
 
  #btn-custom-secondary:hover {
