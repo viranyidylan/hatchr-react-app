@@ -12,7 +12,7 @@
   padding-top: 180px;
   padding-bottom: 60px;
   height: fit-content;
-  width: 100vw;
+  width: 100%;
   background-image: url(../../@types/assets/hero-blob-scene.svg);
   background-size: cover;
   position: relative;
@@ -26,7 +26,7 @@
   position: relative;
   align-items: center;
   justify-content: center;
-  width: 65vw;
+  width: 65%;
   max-width: 750px;
  }
 
@@ -67,7 +67,7 @@
 
  .home-page-background-2 {
   height: fit-content;
-  width: 100vw;
+  width: 100%;
   background-color: var(--charcoal);
   background-size: cover;
   position: relative;
@@ -83,7 +83,7 @@
   padding-bottom: 100px;
   padding-top: 80px;
   color: var(--lightgrey);
-  width: 65vw;
+  width: 65%;
   text-align: left;
  }
 
@@ -97,7 +97,7 @@
   align-items: center;
   padding-bottom: 60px;
   color: var(--lightgrey);
-  width: 60vw;
+  width: 60%;
  }
 
  .faq-heading {
@@ -107,7 +107,7 @@
  .home-page-background-3 {
   padding-top: 60px;
   height: fit-content;
-  width: 100vw;
+  width: 100%;
   background-image: url(../../../src/@types/assets/cta-blob-scene.svg);
   background-size: cover;
   position: relative;
@@ -122,6 +122,6 @@
   align-items: center;
   padding-bottom: 30px;
   color: var(--lightgrey);
-  width: 65vw;
+  width: 65%;
   max-width: 750px;
  }

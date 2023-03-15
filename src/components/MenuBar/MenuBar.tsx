@@ -22,11 +22,11 @@ function MenuBar() {
 
   const navControl = () => {
     if (typeof window !== 'undefined') {
+      setExpanded(false);
       if (window.scrollY < 70) {
         setHidden(false);
       } else {
         setHidden(true);
-        setExpanded(false);
       }
     }
   };
