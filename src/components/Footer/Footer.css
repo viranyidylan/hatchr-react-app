@@ -1,0 +1,15 @@
+.footer {
+  height: 60px;
+  width: 100vw;
+  position: relative;
+  bottom: 0;
+  display: block;
+
+  user-select: none;
+}
+
+.footer-container.container {
+  width: 70%;
+  min-width: 500px;
+  max-width: 1100px;
+}

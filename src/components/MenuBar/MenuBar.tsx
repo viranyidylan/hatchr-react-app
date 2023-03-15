@@ -8,11 +8,11 @@ var navButtonPath = "companies";
 //var loginText = "Log in";
 
 if (window.location.pathname === '/companies') {
-    navButtonText = "developers";
-    navButtonPath = "/";
+  navButtonText = "developers";
+  navButtonPath = "/";
 } else {
-    navButtonText = "companies";
-    navButtonPath = "/companies";
+  navButtonText = "companies";
+  navButtonPath = "/companies";
 }
 
 function MenuBar() {
@@ -21,14 +21,14 @@ function MenuBar() {
   // const [loggedIn, setLoggedIn] = useState(false);
 
   const navControl = () => {
-      if (typeof window !== 'undefined') {
-          if (window.scrollY < 70) {
-              setHidden(false);
-          } else {
-              setHidden(true);
-              setExpanded(false);
-          }
+    if (typeof window !== 'undefined') {
+      if (window.scrollY < 70) {
+        setHidden(false);
+      } else {
+        setHidden(true);
+        setExpanded(false);
       }
+    }
   };
 
   useEffect(() => {
@@ -37,36 +37,36 @@ function MenuBar() {
 
       // cleanup function
       return () => {
-          window.removeEventListener('scroll', navControl);
+        window.removeEventListener('scroll', navControl);
       };
     }
   }, []);
 
   const expansionControl = () => {
-      setExpanded(!expanded);
+    setExpanded(!expanded);
   };
 
   return (
-      <Navbar className="menu-bar" onToggle={expansionControl} expand="lg" variant='dark' fixed="top" hidden={hidden} expanded={expanded} >
-          <Container className="menu-bar-container">
-              <Navbar.Brand>
-                  <Nav.Link href='/'>
-                      <Logo height='40px' width='200px' />
-                  </Nav.Link>
-              </Navbar.Brand>
-              <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-              <Navbar.Collapse id="responsive-navbar-nav">
-                  <Nav className="menu-links">
-                      <Nav.Link className='nav-link' href={navButtonPath}><h3>{"For " + navButtonText}</h3></Nav.Link>
-                      <Nav.Link className='nav-link' href="/assessments"><h3>Coding tasks</h3></Nav.Link>
-                      {/* <Nav.Link className='nav-link' href="/assessments"><h3>Log in</h3></Nav.Link> */}
-                      {/* <Button className='nav-button' id="btn-custom-primary" variant="primary">
+    <Navbar className="menu-bar" onToggle={expansionControl} expand="lg" variant='dark' fixed="top" hidden={hidden} expanded={expanded} >
+      <Container className="menu-bar-container">
+        <Navbar.Brand>
+          <Nav.Link href='/'>
+            <Logo height='40px' width='200px' />
+          </Nav.Link>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="menu-links">
+            <Nav.Link className='nav-link' href={navButtonPath}><h3>{"For " + navButtonText}</h3></Nav.Link>
+            <Nav.Link className='nav-link' href="/assessments"><h3>Coding tasks</h3></Nav.Link>
+            {/* <Nav.Link className='nav-link' href="/assessments"><h3>Log in</h3></Nav.Link> */}
+            {/* <Button className='nav-button' id="btn-custom-primary" variant="primary">
                           <h3>{loginText}</h3>
                       </Button> */}
-                  </Nav>
-              </Navbar.Collapse>
-          </Container>
-      </Navbar>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
 

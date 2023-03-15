@@ -7,6 +7,7 @@ import Assessments from './pages/Assessments/Assessments';
 import NoRoute from './pages/NoRoute/NoRoute';
 import MenuBar from './components/MenuBar/MenuBar';
 import TaskPage from './pages/TaskPage/TaskPage';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/task" element={<TaskPage />} />
         <Route path='*' element={<NoRoute/>} />
       </Routes>
+      <Footer />
     </div>
   );
 }

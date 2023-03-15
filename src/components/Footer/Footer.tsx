@@ -1,10 +1,14 @@
 import React from "react";
+import { Container, Navbar } from "react-bootstrap";
 
 function Footer() {
   return (
-    <div>
-      
+    <div className="footer">
+      <Container className="footer-container">
+        <h1> HELLO </h1>
+      </Container>
     </div>
+
   );
 }
 
