@@ -1,14 +1,14 @@
 /* TASK CARD */
 
-.task-card-container {
+.task-card-container.container {
     display: flex;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 2px;
     height: fit-content;
-    width: 90%!important;
-    max-width: 800px !important;
+    width: 90%;
+    max-width: 700px;
 
     word-break: normal;
 
