@@ -7,8 +7,16 @@ function Footer() {
   return (
     <div className="footer">
       <Container className="footer-container">
-        <Stack gap={5} direction="horizontal">
-          <Logo height="40px"/>
+        <Stack gap={3} direction="horizontal">
+          <Col>
+            <Logo height="40px" />
+          </Col>
+          <Col>
+            <p>slay</p>
+          </Col>
+          <Col>
+            <p>links</p>
+          </Col>
         </Stack>
       </Container>
     </div>

@@ -2,15 +2,19 @@
   position: relative;
   bottom: 0;
   width: 100%;
-  height: fit-content;
-  display: block;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   background-size: cover;
   background-color: var(--charcoal);
+  color: white;
 }
 
 .footer-container.container {
   width: 70%;
   min-width: 500px;
   max-width: 1100px;
+  height: fit-content;
 }
