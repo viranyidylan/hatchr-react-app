@@ -8,10 +8,10 @@
     user-select: none;
   }
   
-  .menu-bar-container {
-    width: 90vw!important;
-    min-width: 650px;
-    max-width: 1200px!important;
+  .menu-bar-container.container {
+    width: 70%;
+    min-width: 500px;
+    max-width: 1100px;
   }
   
   .menu-links {

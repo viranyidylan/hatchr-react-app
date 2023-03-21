@@ -6,8 +6,8 @@ import { ReactComponent as Image3 } from '../../@types/assets/chat.svg';
 import { ReactComponent as Image4 } from '../../@types/assets/electric.svg';
 import './Home.css';
 
-const width = "36px";
-const height = "36px";
+const width = "30px";
+const height = "30px";
 
 function Home() {
     return (
@@ -49,7 +49,7 @@ function Home() {
                         <Row>
                             <Col >
                                 <Stack className="home-page-col" gap={4}>
-                                    <Image1 width="48px" height={height}/>
+                                    <Image1 width="40px" height={height}/>
                                     <h2 className="left">Take an assessment to start</h2>
                                     <p>
                                     Showcase your skills through a coding task and join our professional network of software developers. 

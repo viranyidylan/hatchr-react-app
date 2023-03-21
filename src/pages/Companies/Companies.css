@@ -1,5 +1,12 @@
 /* COMPANY PAGE */
 
+.company-page {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  display: block;
+}
+
 .company-page-background {
   padding-top: 180px;
   padding-bottom: 60px;
@@ -21,15 +28,12 @@
   max-width: 750px;
 }
 
-.company-button-col {
-  display: flex;
+.company-page-title {
+  padding-bottom: 30px;
+  color: white;
+  position: relative;
+  display: block;
   justify-content: center;
-}
-
-.email-entry {
-  padding-top: 5px;
-  margin-left: 20px;
-  width: 300px;
 }
 
 .company-page-subtitle {
@@ -42,13 +46,47 @@
   align-self: center;
  }
 
+.company-button-col {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.email-entry {
+  margin-left: 20px;
+  width: 300px;
+}
+
  .company-button-box h3 {
   color: white;
  }
-
 
  .company-page-subtitle h3 {
   color: var(--lightgrey);
  }
 
+ .company-page-background-2 {
+  height: fit-content;
+  width: 100vw;
+  background-color: var(--charcoal);
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
 
+ .company-page-container-2 {
+  display: block;
+  position: relative;
+  align-items: center;
+  padding-bottom: 100px;
+  padding-top: 80px;
+  color: var(--lightgrey);
+  width: 65vw;
+  text-align: left;
+ }
+
+ .company-page-col {
+  width: 30vw;
+ }
