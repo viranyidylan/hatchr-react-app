@@ -2,7 +2,7 @@
 
 .company-page {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   position: absolute;
   display: block;
 }
@@ -10,7 +10,7 @@
 .company-page-background {
   padding-top: 180px;
   padding-bottom: 60px;
-  width: 100vw;
+  width: 100%;
   background-image: url(../../@types/assets/hero-blob-scene.svg);
   background-size: cover;
   position: relative;
@@ -67,7 +67,7 @@
 
  .company-page-background-2 {
   height: fit-content;
-  width: 100vw;
+  width: 100%;
   background-color: var(--charcoal);
   background-size: cover;
   position: relative;
