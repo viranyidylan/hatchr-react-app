@@ -22,7 +22,7 @@ function Companies() {
                         </Row>
                         <Row className="home-page-subtitle">
                             <Stack gap={3}>
-                                <h3>Connect with pre-screened software engineers who have demonstrated their technical skills with
+                                <h3>Connect with pre-screened software engineers who have demonstrated their technical skills on
                                     real-world work sample tasks.</h3>
                             </Stack>
                         </Row>
@@ -47,10 +47,10 @@ function Companies() {
                             <Col >
                                 <Stack className="home-page-col" gap={4}>
                                     <Image1 width={width} height={height}/>
-                                    <h2 className="left">Identify top-performing candidates with practical assessments</h2>
+                                    <h2 className="left">Access top-performing candidates with practical assessment feedback</h2>
                                     <p>
-                                        Our assessments evaluate the skills and abilities of potential candidates, helping users to choose the
-                                        best fit for open positions.
+                                        Our assessments evaluate the skills and abilities of potential candidates and indentify engineers with the skills you're looking for,
+                                        including engineers with nontraditional backgrounds. 
                                     </p>
                                 </Stack>
                             </Col>
@@ -59,8 +59,7 @@ function Companies() {
                                     <Image2 width={width} height={height}/>
                                     <h2>Pay only for successful hires</h2>
                                     <p>
-                                        Our service operates on a pay-per-hire model, eliminating upfront costs and ensuring that payment is only
-                                        made for successful hires.
+                                        Our service operates on a pay-per-hire model. Connecting with and interviewing candidates is free.
                                     </p>
                                 </Stack>
                             </Col>
@@ -71,7 +70,7 @@ function Companies() {
                                     <Image3 width={width} height={height}/>
                                     <h2>Framework specific assessments that reflect your company's tech stack</h2>
                                     <p>
-                                        Our assessments are customized to match the specific technology stack used by a user's company, ensuring
+                                        We have a range of assessments to match the tech stack your company uses, ensuring 
                                         a good fit for the role.
                                     </p>
                                 </Stack>
@@ -91,10 +90,9 @@ function Companies() {
                             <Col >
                                 <Stack className="home-page-col" gap={4}>
                                     <Image5 width={width} height={height}/>
-                                    <h2>Save your engineers wasting time interviewing insufficiently skilled candidates</h2>
+                                    <h2>Save your engineers from wasting time interviewing insufficiently skilled candidates</h2>
                                     <p>
-                                        By using our service, companies can avoid wasting time and resources on interviewing candidates who are
-                                        not a good fit for the role, resulting in a more efficient recruitment process.
+                                        By using our service, companies can avoid wasting time and resources on interviewing candidates who aren't qualified for the role.
                                     </p>
                                 </Stack>
                             </Col>
