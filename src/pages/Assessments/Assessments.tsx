@@ -12,11 +12,11 @@ class Task {
 }
 
 const tasks: Task[] = [
-    { name: "React task - intermediate", available: true, link: "https://github.com/viranyidylan/intermediate-react-task", tech: "React" },
-    { name: "React task - beginner", available: false, link: "", tech: "React" },
-    { name: "React task - senior", available: false, link: "", tech: "React" },
-    { name: "Angular task - beginner", available: false, link: "", tech: "Angular" },
-    { name: "Angular task - intermediate", available: false, link: "", tech: "Angular" },
+    { name: "React task - intermediate", available: true, link: "https://github.com/hatchr-assessments/junior-react-assessment", tech: "React" },
+    { name: "React task - junior", available: true, link: "https://github.com/hatchr-assessments/junior-react-assessment", tech: "React" },
+    // { name: "React task - senior", available: true, link: "https://github.com/hatchr-assessments/senior-react-assessment", tech: "React" },
+    { name: "Angular task - junior", available: true, link: "https://github.com/hatchr-assessments/junior-angular-assessment", tech: "Angular" },
+    { name: "Angular task - intermediate", available: true, link: "https://github.com/hatchr-assessments/intermediate-angular-assessment", tech: "Angular" },
     // { name: "Angular task - senior", available: false, link: "", tech: "Angular" },
     // { name: "Node.js task - intermediate", available: false, link: "", tech: "Node" },
 ]
