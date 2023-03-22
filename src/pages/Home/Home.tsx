@@ -23,7 +23,7 @@ function Home() {
                               Traditional tech recruitment methods are outdated. At hatchr we're doing things differently.
                             </h3>
                             <h3>
-                              Forget whiteboards, obscure algorithms, and constant CV tweaking - let your technical skills speak for themselves.
+                              Forget whiteboards, obscure algorithms, and constant CV tweaking - let your technical skills speak for you.
                             </h3>
                         </Row>
                         <Row className="button-box">
