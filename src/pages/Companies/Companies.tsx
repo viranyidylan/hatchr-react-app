@@ -47,55 +47,46 @@ function Companies() {
                             <Col >
                                 <Stack className="company-page-col" gap={4}>
                                     <Image1 width={width} height={height}/>
-                                    <h2 className="left">Access top-performing candidates with practical assessment feedback</h2>
+                                    <h2 className="left">Assess candidates with practical work-sample test feedback</h2>
                                     <p>
-                                        Our assessments evaluate the skills and abilities of potential candidates and indentify engineers with the skills you're looking for,
-                                        including engineers with nontraditional backgrounds. 
+                                        Our assessments evaluate candidates based on the fundamentals and indentify engineers with the skills you're hiring for,
+                                        including those from nontraditional backgrounds.
                                     </p>
                                 </Stack>
                             </Col>
+                            <Col >
+                                <Stack className="company-page-col" gap={4}>
+                                    <Image5 width={width} height={height}/>
+                                    <h2>Avoid interviewing underqualified candidates</h2>
+                                    <p>
+                                        Using our service, companies save their engineers from wasting time in interviews with candidates who are not qualified for the role.
+                                    </p>
+                                </Stack>
+                            </Col>
+
+                        </Row>
+                        <Row>
                             <Col >
                                 <Stack className="company-page-col" gap={4}>
                                     <Image2 width={width} height={height}/>
                                     <h2>Pay only for successful hires</h2>
                                     <p>
-                                        Our service operates on a pay-per-hire model. Connecting with and interviewing candidates is free.
+                                      Our service uses a pay-per-hire model, so connecting with and interviewing candidates is free.
                                     </p>
                                 </Stack>
                             </Col>
-                        </Row>
-                        <Row>
                             <Col >
                                 <Stack className="company-page-col" gap={4}>
                                     <Image3 width={width} height={height}/>
                                     <h2>Framework specific assessments that reflect your company's tech stack</h2>
                                     <p>
-                                        We have a range of assessments to match the tech stack your company uses, ensuring 
-                                        a good fit for the role.
+                                        We have a range of assessments to match the tech stack your company uses, and we keep adding more.
                                     </p>
                                 </Stack>
                             </Col>
-                            <Col >
-                                <Stack className="company-page-col" gap={4}>
-                                    <Image4 width={width} height={height}/>
-                                    <h2>Access a pool of highly-skilled software engineers who are eager to interview</h2>
-                                    <p>
-                                        Our service gives users access to a pool of highly-skilled software engineers who are eager to interview
-                                        for open positions, saving time and effort in the recruitment process.
-                                    </p>
-                                </Stack>
-                            </Col>
+
                         </Row>
                         <Row>
-                            <Col >
-                                <Stack className="company-page-col" gap={4}>
-                                    <Image5 width={width} height={height}/>
-                                    <h2>Save your engineers from wasting time interviewing insufficiently skilled candidates</h2>
-                                    <p>
-                                        By using our service, companies can avoid wasting time and resources on interviewing candidates who aren't qualified for the role.
-                                    </p>
-                                </Stack>
-                            </Col>
                             <Col >
                                 <Stack className="company-page-col" gap={4}>
                                     <Image6 width={width} height={height}/>
@@ -103,6 +94,15 @@ function Companies() {
                                     <p>
                                         We understand that sourcing and hiring software engineers is a specific and technical process that
                                         requires domain knowledge and skill.
+                                    </p>
+                                </Stack>
+                            </Col>
+                            <Col >
+                                <Stack className="company-page-col" gap={4}>
+                                    <Image4 width={width} height={height}/>
+                                    <h2>Access a pool of skilled software engineers prepared for interviews</h2>
+                                    <p>
+                                        Our service connects you with skilled software engineers who are eager to interview for open positions.
                                     </p>
                                 </Stack>
                             </Col>

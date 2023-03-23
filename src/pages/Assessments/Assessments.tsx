@@ -12,13 +12,13 @@ class Task {
 }
 
 const tasks: Task[] = [
-    { name: "React task - junior", available: true, link: "https://github.com/hatchr-assessments/junior-react-assessment", tech: "React" },
-    { name: "React task - intermediate", available: true, link: "https://github.com/hatchr-assessments/junior-react-assessment", tech: "React" },
-    { name: "React task - senior", available: true, link: "https://github.com/hatchr-assessments/senior-react-assessment", tech: "React" },
-    { name: "Angular task - junior", available: true, link: "https://github.com/hatchr-assessments/junior-angular-assessment", tech: "Angular" },
-    { name: "Angular task - intermediate", available: true, link: "https://github.com/hatchr-assessments/intermediate-angular-assessment", tech: "Angular" },
-    { name: "Angular task - senior", available: false, link: "", tech: "Angular" },
-    { name: "Node.js task - intermediate", available: false, link: "", tech: "Node" },
+    { name: "React task I : 0-2 years of professional experience)", available: true, link: "https://github.com/hatchr-assessments/junior-react-assessment", tech: "React" },
+    { name: "React task II (3-5 years of professional experience)", available: true, link: "https://github.com/hatchr-assessments/junior-react-assessment", tech: "React" },
+    { name: "React task III (6 or more years of professional experience)", available: false, link: "https://github.com/hatchr-assessments/senior-react-assessment", tech: "React" },
+    { name: "Angular task I (0-2 years of professional experience)", available: true, link: "https://github.com/hatchr-assessments/junior-angular-assessment", tech: "Angular" },
+    { name: "Angular task II (3-5 years of professional experience)", available: true, link: "https://github.com/hatchr-assessments/intermediate-angular-assessment", tech: "Angular" },
+    // { name: "Angular task  III (6 or more years of professional experience)"", available: false, link: "", tech: "Angular" },
+    { name: "Node.js task II (3-5 years of professional experience)", available: false, link: "", tech: "Node" },
 ]
 
 function Assessments() {

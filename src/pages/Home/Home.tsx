@@ -53,7 +53,7 @@ function Home() {
                                     <h2 className="left">Take an assessment to start</h2>
                                     <p>
                                     Showcase your skills through a coding task and join our professional network of software developers. 
-                                    We're not here to trick or catch you out with our assessments; 
+                                    We're not here to trick you with our assessments; 
                                     we want to see your best work, using the tools you feel most comfortable with.
                                     </p>
                                 </Stack>
@@ -77,7 +77,7 @@ function Home() {
                                     <Image2 width={width} height={height}/>
                                     <h2>Let your skills speak for you</h2>
                                     <p>
-                                    At hatchr, we shift the focus from background or personal branding, tricky algorithm questions and prestigious credentials to what actually matters: 
+                                    At hatchr, we shift the focus from background, personal branding, tricky algorithm questions and prestigious credentials to what actually matters: 
                                     your technical skills.
                                     </p>
                                 </Stack>
